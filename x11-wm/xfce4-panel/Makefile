@@ -32,8 +32,8 @@ CONFIGURE_ARGS=	--enable-gio-unix --without-html-dir
 
 PORTSCOUT=	limitw:1,even
 
-OPTIONS_DEFINE=		GIR GTK2 NLS VAPI
-OPTIONS_DEFAULT=	GIR GTK2 VAPI
+OPTIONS_DEFINE=		GIR NLS VAPI
+OPTIONS_DEFAULT=	GIR VAPI
 OPTIONS_SUB=		yes
 
 GIR_DESC=		Use Gobject Introspection
@@ -41,9 +41,6 @@ GIR_DESC=		Use Gobject Introspection
 GIR_USE=		gnome=introspection:build
 GIR_CONFIGURE_ON=       --enable-introspection=yes
 GIR_CONFIGURE_OFF=      --enable-introspection=no
-
-GTK2_USE=		gnome=gtk20
-GTK2_CONFIGURE_ENABLE=	gtk2
 
 NLS_CONFIGURE_ENABLE=	nls
 NLS_USES=		gettext-runtime
