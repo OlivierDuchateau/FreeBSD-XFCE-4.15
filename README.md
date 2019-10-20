@@ -18,4 +18,4 @@ There is no implicit or explicit warranty about the working state of the ports p
 
 ## Relevant external links
 
-* https://mail.xfce.org/pipermail/xfce-announce/2019-October/000794.html
+* https://simon.shimmerproject.org/2019/10/19/xfce-4-15-development-phase-starting/
