@@ -14,9 +14,6 @@ include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-macros.h
 include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-plugin-provider.h
 include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-plugin.h
 %%GIR%%lib/girepository-1.0/libxfce4panel-2.0.typelib
-%%GTK2%%lib/libxfce4panel-1.0.so
-%%GTK2%%lib/libxfce4panel-1.0.so.4
-%%GTK2%%lib/libxfce4panel-1.0.so.4.0.0
 lib/libxfce4panel-2.0.so
 lib/libxfce4panel-2.0.so.4
 lib/libxfce4panel-2.0.so.4.0.0
@@ -32,9 +29,7 @@ lib/xfce4/panel/plugins/libshowdesktop.so
 lib/xfce4/panel/plugins/libsystray.so
 lib/xfce4/panel/plugins/libtasklist.so
 lib/xfce4/panel/plugins/libwindowmenu.so
-%%GTK2%%lib/xfce4/panel/wrapper-1.0
 lib/xfce4/panel/wrapper-2.0
-%%GTK2%%libdata/pkgconfig/libxfce4panel-1.0.pc
 libdata/pkgconfig/libxfce4panel-2.0.pc
 share/applications/panel-desktop-handler.desktop
 share/applications/panel-preferences.desktop
