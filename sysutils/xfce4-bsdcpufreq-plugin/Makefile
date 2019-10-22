@@ -1,10 +1,9 @@
 # Created by: Thomas Zander <riggs@FreeBSD.org>
-# $FreeBSD: head/sysutils/xfce4-bsdcpufreq-plugin/Makefile 513672 2019-10-03 15:58:11Z pkubaj $
+# $FreeBSD: head/sysutils/xfce4-bsdcpufreq-plugin/Makefile 515198 2019-10-22 14:59:36Z riggs $
 #
 
 PORTNAME=	xfce4-bsdcpufreq-plugin
-PORTVERSION=	0.2
-PORTREVISION=	3
+PORTVERSION=	0.3
 CATEGORIES=	sysutils xfce
 
 MAINTAINER=	riggs@FreeBSD.org
@@ -16,16 +15,16 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 
-USES=		compiler:c11 pkgconfig xfce:gtk2
+USES=		compiler:c11 pkgconfig xfce
 USE_XFCE=	panel
-USE_GNOME=	cairo gdkpixbuf2 gtk20
+USE_GNOME=	cairo gdkpixbuf2 gtk30
 
 PLIST_FILES=	lib/xfce4/panel/plugins/libbsdcpufreq.so \
 		share/xfce4/panel/plugins/bsdcpufreq.desktop
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	riggs-
-GH_TAGNAME=	be17b3a
+GH_TAGNAME=	a093f86
 
 do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/lib/xfce4/panel/plugins
