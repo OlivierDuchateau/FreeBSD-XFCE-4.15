@@ -1,5 +1,5 @@
 # Created by: James Earl <jdearl@telus.net>
-# $FreeBSD: head/print/xfce4-print/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/print/xfce4-print/Makefile 515609 2019-10-25 13:33:09Z pkubaj $
 
 PORTNAME=	xfce4-print
 PORTVERSION=	4.6.1
@@ -19,8 +19,8 @@ RUN_DEPENDS=	a2ps:print/a2ps
 LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 
-USES=		gettext-tools gmake gnome libtool pathfix pkgconfig \
-		tar:bzip2 xfce:gtk2 xorg
+USES=		compiler:c11 gettext-tools gmake gnome libtool pathfix \
+		pkgconfig tar:bzip2 xfce:gtk2 xorg
 USE_GNOME=	cairo glib20 gtk20 intltool
 USE_LDCONFIG=	yes
 USE_XFCE=	libgui xfconf
