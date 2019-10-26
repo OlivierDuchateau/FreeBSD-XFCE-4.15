@@ -1,5 +1,5 @@
 # Created by: Matt Lancereau <matt@rimasec.net>
-# $FreeBSD: head/deskutils/orage/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/deskutils/orage/Makefile 515676 2019-10-26 09:21:16Z linimon $
 
 PORTNAME=	orage
 PORTVERSION=	4.12.1
@@ -23,8 +23,8 @@ LIB_DEPENDS=	libpopt.so:devel/popt \
 		libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 
-USES=		desktop-file-utils gettext gmake gnome libtool pkgconfig \
-		tar:bzip2 xfce:gtk2 xorg
+USES=		compiler:c++11-lang desktop-file-utils gettext gmake gnome \
+		libtool pkgconfig tar:bzip2 xfce:gtk2 xorg
 USE_GNOME=	cairo gtk20 intltool
 USE_XFCE=	panel
 USE_XORG=	x11
