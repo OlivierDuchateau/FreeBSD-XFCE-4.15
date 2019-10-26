@@ -14,6 +14,8 @@ COMMENT=	Mail notification applet for the Xfce panel
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
+BROKEN=		Depends on removed gtk2 panel library
+
 LIB_DEPENDS=	libgnutls.so:security/gnutls \
 		libgcrypt.so:security/libgcrypt \
 		libgpg-error.so:security/libgpg-error \

@@ -13,6 +13,8 @@ COMMENT=	Volume control for the Xfce desktop
 
 LICENSE=	GPLv2
 
+BROKEN=		Depends on removed gtk2 panel library
+
 LIB_DEPENDS=	libdbus-glib-1.so:devel/dbus-glib \
 		libdbus-1.so:devel/dbus \
 		libunique-1.0.so:x11-toolkits/unique \

@@ -11,6 +11,8 @@ DIST_SUBDIR=	xfce4
 MAINTAINER=	xfce@FreeBSD.org
 COMMENT=	WMdock plugin for Xfce
 
+BROKEN=		Depends on removed gtk2 panel library
+
 LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 

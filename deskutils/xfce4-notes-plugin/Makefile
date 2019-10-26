@@ -13,6 +13,8 @@ COMMENT=	Notes plugin for the Xfce panel
 
 LICENSE=	GPLv2
 
+BROKEN=		Depends on removed gtk2 panel library
+
 LIB_DEPENDS=	libunique-1.0.so:x11-toolkits/unique \
 		libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2

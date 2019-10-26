@@ -14,6 +14,8 @@ COMMENT=	Calendar application for the Xfce Desktop
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
+BROKEN=		Depends on removed gtk2 panel library
+
 LIB_DEPENDS=	libpopt.so:devel/popt \
 		libdbus-glib-1.so:devel/dbus-glib \
 		libdbus-1.so:devel/dbus \
