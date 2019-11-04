@@ -1,8 +1,8 @@
 # Created by: Martin Wilke (miwi@FreeBSD.org)
-# $FreeBSD: head/x11-clocks/xfce4-time-out-plugin/Makefile 514127 2019-10-09 09:53:21Z woodsb02 $
+# $FreeBSD: head/x11-clocks/xfce4-time-out-plugin/Makefile 516682 2019-11-04 16:00:31Z madpilot $
 
 PORTNAME=	xfce4-time-out-plugin
-PORTVERSION=	1.0.3
+PORTVERSION=	1.1.0
 CATEGORIES=	x11-clocks xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
@@ -12,14 +12,9 @@ COMMENT=	Time out plugin for Xfce
 
 LICENSE=	GPLv2
 
-BROKEN=		Depends on removed gtk2 panel library
-
-LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
-		libfreetype.so:print/freetype2
-
 USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
-		tar:bzip2 xfce:gtk2 xorg
-USE_GNOME=	cairo gtk20 intltool
+		tar:bzip2 xfce xorg
+USE_GNOME=	cairo gtk30 intltool
 USE_XFCE=	panel
 USE_XORG=	x11
 
