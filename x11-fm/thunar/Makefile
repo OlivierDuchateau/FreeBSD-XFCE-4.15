@@ -1,8 +1,8 @@
 # Created by: Oliver Lehmann <oliver@FreeBSD.org>
-# $FreeBSD: head/x11-fm/thunar/Makefile 513452 2019-10-01 04:46:24Z pkubaj $
+# $FreeBSD: head/x11-fm/thunar/Makefile 517274 2019-11-11 17:56:29Z madpilot $
 
-PORTNAME=	Thunar
-DISTVERSION=	1.8.9
+PORTNAME=	thunar
+DISTVERSION=	1.8.10
 CATEGORIES=	x11-fm xfce
 MASTER_SITES=	XFCE
 DIST_SUBDIR=	xfce4
