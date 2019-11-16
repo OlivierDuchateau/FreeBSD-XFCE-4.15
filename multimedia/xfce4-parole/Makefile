@@ -1,8 +1,8 @@
 # Created by: Martin Wilke <miwi@FreeBSD.org>
-# $FreeBSD: head/multimedia/xfce4-parole/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/multimedia/xfce4-parole/Makefile 517762 2019-11-16 16:42:37Z madpilot $
 
 PORTNAME=	parole
-PORTVERSION=	1.0.4
+PORTVERSION=	1.0.5
 CATEGORIES=	multimedia xfce
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4
