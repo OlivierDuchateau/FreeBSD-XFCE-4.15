@@ -1,8 +1,8 @@
 # Created by: Olivier Duchateau
-# $FreeBSD: head/x11/xfce4-dashboard/Makefile 513556 2019-10-02 08:32:22Z pkubaj $
+# $FreeBSD: head/x11/xfce4-dashboard/Makefile 518731 2019-11-30 21:48:47Z madpilot $
 
 PORTNAME=	dashboard
-PORTVERSION=	0.7.5
+PORTVERSION=	0.7.6
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/apps
 PKGNAMEPREFIX=	xfce4-
@@ -18,7 +18,7 @@ LIB_DEPENDS=	libjson-glib-1.0.so:devel/json-glib \
 		libcogl.so:graphics/cogl \
 		libclutter-1.0.so:graphics/clutter
 
-USES=		compiler:c11 gettext-tools gmake gnome localbase libtool \
+USES=		compiler:c11 gettext-tools gl gmake gnome localbase libtool \
 		pathfix perl5 pkgconfig tar:bzip2 xfce xorg
 USE_GNOME=	cairo glib20 gtk30 intltool libwnck3
 USE_XFCE=	garcon xfconf
@@ -42,5 +42,7 @@ post-patch:
 # default value
 	${FIND} ${WRKSRC}/data/themes -type f -name 'effects.xml' \
 		| ${XARGS} ${REINPLACE_CMD} -i "" 's|factor">1.0|factor">0.25|'
+	${FIND} ${WRKSRC}/data/themes -type f -name '*.theme.in.in' \
+		| ${XARGS} ${REINPLACE_CMD} -e '/Animations=animations.xml/d'
 
 .include <bsd.port.mk>
