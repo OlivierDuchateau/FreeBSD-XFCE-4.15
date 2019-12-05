@@ -1,8 +1,8 @@
 # Created by: Olivier Duchateau
-# $FreeBSD: head/x11/xfce4-dashboard/Makefile 518731 2019-11-30 21:48:47Z madpilot $
+# $FreeBSD: head/x11/xfce4-dashboard/Makefile 519039 2019-12-04 18:04:55Z madpilot $
 
 PORTNAME=	dashboard
-PORTVERSION=	0.7.6
+PORTVERSION=	0.7.7
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/apps
 PKGNAMEPREFIX=	xfce4-
@@ -42,7 +42,5 @@ post-patch:
 # default value
 	${FIND} ${WRKSRC}/data/themes -type f -name 'effects.xml' \
 		| ${XARGS} ${REINPLACE_CMD} -i "" 's|factor">1.0|factor">0.25|'
-	${FIND} ${WRKSRC}/data/themes -type f -name '*.theme.in.in' \
-		| ${XARGS} ${REINPLACE_CMD} -e '/Animations=animations.xml/d'
 
 .include <bsd.port.mk>
