@@ -1,8 +1,8 @@
 # Created by: Matt Lancereau
-# $FreeBSD: head/x11/libexo/Makefile 518046 2019-11-20 19:42:27Z madpilot $
+# $FreeBSD: head/x11/libexo/Makefile 520510 2019-12-20 14:49:23Z madpilot $
 
 PORTNAME=	libexo
-PORTVERSION=	0.12.10
+PORTVERSION=	0.12.11
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE
 DISTNAME=	exo-${DISTVERSIONFULL}
