@@ -1,9 +1,8 @@
 # Created by: Olivier Duchateau
-# $FreeBSD: head/deskutils/xfce4-tumbler/Makefile 516270 2019-11-01 21:51:36Z tcberner $
+# $FreeBSD: head/deskutils/xfce4-tumbler/Makefile 520609 2019-12-22 09:38:43Z madpilot $
 
 PORTNAME=	tumbler
-PORTVERSION=	0.2.7
-PORTREVISION=	2
+PORTVERSION=	0.2.8
 CATEGORIES=	deskutils xfce
 MASTER_SITES=	XFCE
 PKGNAMEPREFIX=	xfce4-
