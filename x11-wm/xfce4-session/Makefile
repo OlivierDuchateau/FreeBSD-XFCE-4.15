@@ -1,9 +1,8 @@
 # Created by: Matt Lancereau <matt@rimasec.net>
-# $FreeBSD: head/x11-wm/xfce4-session/Makefile 513420 2019-09-30 20:57:55Z pkubaj $
+# $FreeBSD: head/x11-wm/xfce4-session/Makefile 522691 2020-01-11 15:40:16Z madpilot $
 
 PORTNAME=	xfce4-session
-PORTVERSION=	4.14.0
-PORTREVISION=	1
+PORTVERSION=	4.14.1
 CATEGORIES=	x11-wm xfce
 MASTER_SITES=	XFCE
 DIST_SUBDIR=	xfce4
