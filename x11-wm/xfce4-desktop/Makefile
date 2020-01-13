@@ -1,8 +1,8 @@
 # Created by: James Earl <jdearl@telus.net>
-# $FreeBSD: head/x11-wm/xfce4-desktop/Makefile 513462 2019-10-01 07:48:45Z pkubaj $
+# $FreeBSD: head/x11-wm/xfce4-desktop/Makefile 522894 2020-01-13 14:22:13Z madpilot $
 
 PORTNAME=	xfce4-desktop
-PORTVERSION=	4.14.1
+PORTVERSION=	4.14.2
 CATEGORIES=	x11-wm xfce
 MASTER_SITES=	XFCE
 DISTNAME=	xfdesktop-${DISTVERSIONFULL}
