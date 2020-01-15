@@ -1,8 +1,8 @@
 # Created by: jpaetzel@FreeBSD.org
-# $FreeBSD: head/sysutils/catfish/Makefile 521824 2020-01-02 10:36:59Z madpilot $
+# $FreeBSD: head/sysutils/catfish/Makefile 523103 2020-01-15 11:34:57Z madpilot $
 
 PORTNAME=	catfish
-PORTVERSION=	1.4.12
+PORTVERSION=	1.4.13
 CATEGORIES=	sysutils
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4
@@ -14,10 +14,13 @@ LICENSE=	GPLv3
 
 RUN_DEPENDS=	\
 	${PYTHON_PKGNAMEPREFIX}python-distutils-extra>0:devel/py-python-distutils-extra@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}pexpect>0:misc/py-pexpect@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}dbus>0:devel/py-dbus@${PY_FLAVOR}
+BUILD_DEPENDS=	\
+	${PYTHON_PKGNAMEPREFIX}python-distutils-extra>0:devel/py-python-distutils-extra@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}pexpect>0:misc/py-pexpect@${PY_FLAVOR}
-BUILD_DEPENDS=	${RUN_DEPENDS}
 
-USES=		desktop-file-utils gettext-tools gnome python:2.7 tar:bz2
+USES=		desktop-file-utils gettext-tools gnome python:3.4+ tar:bz2
 USE_PYTHON=	distutils
 USE_GNOME=	gtk30 intltool pygobject3
 
