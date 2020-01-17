@@ -1,5 +1,5 @@
 # Created by: jpaetzel@FreeBSD.org
-# $FreeBSD: head/sysutils/catfish/Makefile 523103 2020-01-15 11:34:57Z madpilot $
+# $FreeBSD: head/sysutils/catfish/Makefile 523365 2020-01-17 21:58:54Z madpilot $
 
 PORTNAME=	catfish
 PORTVERSION=	1.4.13
@@ -21,14 +21,14 @@ BUILD_DEPENDS=	\
 	${PYTHON_PKGNAMEPREFIX}pexpect>0:misc/py-pexpect@${PY_FLAVOR}
 
 USES=		desktop-file-utils gettext-tools gnome python:3.4+ tar:bz2
-USE_PYTHON=	distutils
+USE_PYTHON=	distutils noflavors
 USE_GNOME=	gtk30 intltool pygobject3
 
 NO_ARCH=	yes
 INSTALLS_ICONS=	yes
 
 OPTIONS_DEFINE=	DOCS ZEITGEIST
-OPTIONS_DEFAULT=ZEITGEIST POLKIT
+OPTIONS_DEFAULT=POLKIT
 OPTIONS_MULTI=	PRIVILEGES
 OPTIONS_MULTI_PRIVILEGES=	POLKIT SUDO
 
@@ -38,13 +38,8 @@ POLKIT_RUN_DEPENDS=	pkexec:sysutils/polkit
 SUDO_DESC=	Provide sudo support
 SUDO_RUN_DEPENDS=	sudo:security/sudo
 
-ZEITGEIST_DESC=	Provide recent search suggestions
+ZEITGEIST_DESC=	Provide recent search suggestions (broken)
 ZEITGEIST_LIB_DEPENDS=	libzeitgeist-2.0.so:sysutils/zeitgeist
-
-post-install:
-	${MV} ${STAGEDIR}${PREFIX}/share/man/man1/catfish.1 ${STAGEDIR}${PREFIX}/man/man1/catfish.1
-	(cd ${STAGEDIR}${PREFIX}/share && ${RMDIR} -p man/man1)
-	${GZIP} ${STAGEDIR}${PREFIX}/man/man1/catfish.1
 
 .include <bsd.port.pre.mk>
 
