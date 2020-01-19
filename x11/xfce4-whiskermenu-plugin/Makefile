@@ -1,8 +1,8 @@
 # Created by: Olivier Duchateau
-# $FreeBSD: head/x11/xfce4-whiskermenu-plugin/Makefile 516874 2019-11-06 11:01:46Z madpilot $
+# $FreeBSD: head/x11/xfce4-whiskermenu-plugin/Makefile 523526 2020-01-19 10:06:01Z madpilot $
 
 PORTNAME=	xfce4-whiskermenu-plugin
-PORTVERSION=	2.3.4
+PORTVERSION=	2.3.5
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
