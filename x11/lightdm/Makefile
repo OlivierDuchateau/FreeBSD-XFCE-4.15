@@ -1,9 +1,9 @@
 # Created by: Ben Woods <woodsb02@FreeBSD.org>
-# $FreeBSD: head/x11/lightdm/Makefile 507372 2019-07-26 20:46:53Z gerald $
+# $FreeBSD: head/x11/lightdm/Makefile 523696 2020-01-20 23:19:56Z woodsb02 $
 
 PORTNAME=	lightdm
 PORTVERSION=	1.30.0
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	https://github.com/CanonicalLtd/${PORTNAME}/releases/download/${DISTVERSIONPREFIX}${DISTVERSION}/
 
@@ -24,7 +24,7 @@ LIB_DEPENDS=	libaccountsservice.so:sysutils/accountsservice \
 		libxklavier.so:x11/libxklavier
 
 USES=		compiler:c++11-lang gettext gmake gnome libtool localbase \
-		pathfix pkgconfig tar:xz
+		pathfix pkgconfig tar:xz xorg
 USE_CXXSTD=	c++11
 USE_GNOME=	glib20 intltool
 USE_XORG=	x11 xcb xdmcp
@@ -35,7 +35,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-tests # PAM errors
 INSTALL_TARGET=	install-strip
 USERS=		lightdm
-GROUPS=		lightdm
+GROUPS=		lightdm video
 PORTSCOUT=	limitw:1,even
 SUB_FILES=	Xsession
 

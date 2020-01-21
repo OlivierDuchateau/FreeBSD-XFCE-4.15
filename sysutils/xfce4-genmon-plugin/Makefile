@@ -1,9 +1,8 @@
 # Created by: Matt Lancereau <ports@FreeBSD.org>
-# $FreeBSD: head/sysutils/xfce4-genmon-plugin/Makefile 513556 2019-10-02 08:32:22Z pkubaj $
+# $FreeBSD: head/sysutils/xfce4-genmon-plugin/Makefile 522459 2020-01-08 21:20:21Z rene $
 
 PORTNAME=	xfce4-genmon-plugin
-PORTVERSION=	4.0.1
-PORTREVISION=	1
+PORTVERSION=	4.0.2
 CATEGORIES=	sysutils xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
