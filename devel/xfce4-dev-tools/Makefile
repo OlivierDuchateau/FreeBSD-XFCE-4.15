@@ -1,5 +1,5 @@
 # Created by: Oliver Lehmann <oliver@FreeBSD.org>
-# $FreeBSD: head/devel/xfce4-dev-tools/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/devel/xfce4-dev-tools/Makefile 517048 2019-11-08 11:39:00Z tobik $
 
 PORTNAME=	xfce4-dev-tools
 PORTVERSION=	4.14.0
@@ -18,7 +18,7 @@ RUN_DEPENDS=	autoconf>=2.69:devel/autoconf \
 		libtoolize:devel/libtool \
 		bash:shells/bash
 
-USES=		pkgconfig tar:bzip2 xfce
+USES=		gnome pkgconfig tar:bzip2 xfce
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=	yes
