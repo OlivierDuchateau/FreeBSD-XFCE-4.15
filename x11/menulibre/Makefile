@@ -1,4 +1,4 @@
-# $FreeBSD: head/x11/menulibre/Makefile 509049 2019-08-15 20:07:27Z madpilot $
+# $FreeBSD: head/x11/menulibre/Makefile 523126 2020-01-15 16:48:17Z bapt $
 
 PORTNAME=	menulibre
 PORTVERSION=	2.2.1
@@ -28,10 +28,5 @@ OPTIONS_DEFINE=	DOCS
 .include <bsd.port.pre.mk>
 
 PYDISTUTILS_INSTALLARGS:=	${PYDISTUTILS_INSTALLARGS:N--single-version-externally-managed}
-
-post-install:
-	${MV} ${STAGEDIR}${PREFIX}/share/man/man1 ${STAGEDIR}${PREFIX}/man
-	${RMDIR} ${STAGEDIR}${PREFIX}/share/man
-	${GZIP_CMD} ${STAGEDIR}${PREFIX}/man/man1/*
 
 .include <bsd.port.post.mk>
