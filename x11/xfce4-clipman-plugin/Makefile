@@ -1,9 +1,8 @@
 # Created by: Matt Lancereau <matt@rimasec.net>
-# $FreeBSD: head/x11/xfce4-clipman-plugin/Makefile 513556 2019-10-02 08:32:22Z pkubaj $
+# $FreeBSD: head/x11/xfce4-clipman-plugin/Makefile 530793 2020-04-05 15:22:06Z madpilot $
 
 PORTNAME=	xfce4-clipman-plugin
-PORTVERSION=	1.4.3
-PORTREVISION=	2
+PORTVERSION=	1.6.1
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4

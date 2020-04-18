@@ -1,9 +1,8 @@
 # Created by: Filippo Natali <filippo@widestore.net>
-# $FreeBSD: head/misc/xfce4-weather-plugin/Makefile 520946 2019-12-26 19:41:27Z madpilot $
+# $FreeBSD: head/misc/xfce4-weather-plugin/Makefile 527263 2020-02-27 17:56:24Z madpilot $
 
 PORTNAME=	xfce4-weather-plugin
-PORTVERSION=	0.10.0
-PORTREVISION=	1
+PORTVERSION=	0.10.1
 CATEGORIES=	misc xfce geography
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4

@@ -1,9 +1,8 @@
 # Created by: DaJoob
-# $FreeBSD: head/x11/xfce4-taskmanager/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/x11/xfce4-taskmanager/Makefile 531411 2020-04-11 10:12:32Z madpilot $
 
 PORTNAME=	xfce4-taskmanager
-PORTVERSION=	1.2.2
-PORTREVISION=	2
+PORTVERSION=	1.2.3
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4

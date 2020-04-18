@@ -1,5 +1,5 @@
 # Created by: Oliver Lehmann <oliver@FreeBSD.org>
-# $FreeBSD: head/sysutils/garcon/Makefile 513920 2019-10-06 23:44:27Z woodsb02 $
+# $FreeBSD: head/sysutils/garcon/Makefile 530756 2020-04-05 09:13:21Z madpilot $
 
 PORTNAME=	garcon
 PORTVERSION=	0.6.4
@@ -28,8 +28,14 @@ GNU_CONFIGURE=	yes
 INSTALL_TARGET=	install-strip
 CONFIGURE_ARGS=	--without-html-dir
 
-OPTIONS_DEFINE=		NLS
+PORTSCOUT=	limitw:1,even
+
+OPTIONS_DEFINE=		GTK2 NLS
+OPTIONS_DEFAULT=	GTK2
 OPTIONS_SUB=		yes
+
+GTK2_USE=		gnome=gtk20
+GTK2_CONFIGURE_ENABLE=	gtk2
 
 NLS_CONFIGURE_ENABLE=	nls
 NLS_USES=		gettext-runtime

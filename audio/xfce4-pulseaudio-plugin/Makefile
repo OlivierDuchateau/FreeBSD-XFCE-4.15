@@ -1,8 +1,8 @@
 # Created by: Olivier Duchateau
-# $FreeBSD: head/audio/xfce4-pulseaudio-plugin/Makefile 515553 2019-10-24 17:19:43Z pkubaj $
+# $FreeBSD: head/audio/xfce4-pulseaudio-plugin/Makefile 529882 2020-03-30 13:07:17Z madpilot $
 
 PORTNAME=	xfce4-pulseaudio-plugin
-PORTVERSION=	0.4.2
+PORTVERSION=	0.4.3
 CATEGORIES=	audio xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
