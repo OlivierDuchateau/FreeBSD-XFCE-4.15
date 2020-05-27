@@ -2,7 +2,7 @@
 # $FreeBSD: head/sysutils/xfce4-settings/Makefile 522692 2020-01-11 15:40:49Z madpilot $
 
 PORTNAME=	xfce4-settings
-PORTVERSION=	4.15.0
+PORTVERSION=	4.15.1
 CATEGORIES=	sysutils xfce
 MASTER_SITES=	XFCE
 DIST_SUBDIR=	xfce4
