@@ -1,8 +1,8 @@
 # Created by: Oliver Lehmann <oliver@FreeBSD.org>
-# $FreeBSD: head/x11/xfce4-conf/Makefile 514738 2019-10-18 21:40:30Z tobik $
+# $FreeBSD: head/x11/xfce4-conf/Makefile 534255 2020-05-07 10:34:42Z madpilot $
 
 PORTNAME=	xfce4-conf
-PORTVERSION=	4.14.1
+PORTVERSION=	4.14.3
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE
 DISTNAME=	xfconf-${DISTVERSIONFULL}
@@ -45,7 +45,7 @@ NLS_USES=		gettext-runtime
 
 PERL_BUILD_DEPENDS=	p5-ExtUtils-Depends>=0.405:devel/p5-ExtUtils-Depends \
 			p5-ExtUtils-PkgConfig>=1.15:devel/p5-ExtUtils-PkgConfig \
-			p5-Glib2>=1.321:devel/p5-Glib2
+			p5-Glib>=1.321:devel/p5-Glib
 PERL_CONFIGURE_ENABLE=	perl-bindings
 PERL_LIB_DEPENDS=	libdbus-1.so:devel/dbus
 PERL_USE=		perl5=run
