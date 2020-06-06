@@ -1,7 +1,7 @@
-# $FreeBSD: head/x11-clocks/xfce4-stopwatch-plugin/Makefile 513760 2019-10-04 10:34:54Z pkubaj $
+# $FreeBSD: head/x11-clocks/xfce4-stopwatch-plugin/Makefile 537953 2020-06-04 20:04:54Z madpilot $
 
 PORTNAME=	xfce4-stopwatch-plugin
-PORTVERSION=	0.3.1
+PORTVERSION=	0.4.0
 CATEGORIES=	x11-clocks xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
