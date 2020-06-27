@@ -1,9 +1,9 @@
 # Created by: Martin Wilke (miwi@FreeBSD.org)
-# $FreeBSD: head/x11/xfce4-quicklauncher-plugin/Makefile 514231 2019-10-10 14:57:55Z pkubaj $
+# $FreeBSD: head/x11/xfce4-quicklauncher-plugin/Makefile 540614 2020-06-27 15:02:12Z madpilot $
 
 PORTNAME=	xfce4-quicklauncher-plugin
 PORTVERSION=	1.9.4
-PORTREVISION=	19
+PORTREVISION=	20
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4

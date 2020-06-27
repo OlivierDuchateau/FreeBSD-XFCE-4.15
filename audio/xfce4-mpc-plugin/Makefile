@@ -1,5 +1,5 @@
 # Created by: Martin Wilke (miwi@FreeBSD.org)
-# $FreeBSD: head/audio/xfce4-mpc-plugin/Makefile 515564 2019-10-24 17:40:30Z pkubaj $
+# $FreeBSD: head/audio/xfce4-mpc-plugin/Makefile 517040 2019-11-08 09:27:56Z tobik $
 
 PORTNAME=	xfce4-mpc-plugin
 PORTVERSION=	0.5.2
@@ -15,8 +15,8 @@ LICENSE=	ISCL
 LIB_DEPENDS=	libmpd.so:audio/libmpd
 RUN_DEPENDS=	musicpd:audio/musicpd
 
-USES=		compiler:c11 gettext-tools gmake libtool pkgconfig tar:bzip2 \
-		xfce
+USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
+		tar:bzip2 xfce
 USE_GNOME=	cairo gdkpixbuf2 gtk30 intltool
 USE_XFCE=	panel
 

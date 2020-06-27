@@ -1,9 +1,9 @@
 # Created by: James Earl <jdearl@telus.net>
-# $FreeBSD: head/audio/xfce4-mixer/Makefile 514214 2019-10-10 08:59:11Z pkubaj $
+# $FreeBSD: head/audio/xfce4-mixer/Makefile 540614 2020-06-27 15:02:12Z madpilot $
 
 PORTNAME=	xfce4-mixer
 PORTVERSION=	4.11.0
-PORTREVISION=	5
+PORTREVISION=	6
 CATEGORIES=	audio xfce
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4

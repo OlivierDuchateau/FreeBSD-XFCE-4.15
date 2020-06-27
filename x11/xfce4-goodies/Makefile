@@ -1,8 +1,8 @@
 # Created by: Ben Woods <woodsb02@FreeBSD.org>
-# $FreeBSD: head/x11/xfce4-goodies/Makefile 514127 2019-10-09 09:53:21Z woodsb02 $
+# $FreeBSD: head/x11/xfce4-goodies/Makefile 536358 2020-05-23 23:41:35Z linimon $
 
 PORTNAME=	xfce4-goodies
-PORTVERSION=	4.14
+PORTVERSION=	4.15
 CATEGORIES=	x11
 
 MAINTAINER=	xfce@FreeBSD.org
@@ -19,6 +19,10 @@ OPTIONS_DEFAULT=        DASHBOARD DICTIONARY GIGOLO PAROLE  POWERMANAGER \
 			SYSTEMLOAD TIMER TIMEOUT VERVE WAVELAN \
 			WEATHER WHISKERMENU XKB ARCHIVE MEDIATAGS \
 			VCS BSDCPUFREQ EQUAKE THEMES VOLUMED
+
+OPTIONS_EXCLUDE_powerpc=	BATTERY
+OPTIONS_EXCLUDE_powerpc64=	BATTERY
+OPTIONS_EXCLUDE_powerpcspe=	BATTERY
 
 OPTIONS_GROUP=	APPLICATIONS PANELPLUGINS THUNARPLUGINS UNOFFICIAL
 
@@ -59,7 +63,7 @@ XFMPC_RUN_DEPENDS=		xfmpc>=0:audio/xfmpc
 OPTIONS_GROUP_PANELPLUGINS=	BATTERY CALCULATOR CLIPMAN CPUGRAPH DATETIME \
 				DISKPERF EMBED FSGUARD GENERICSLIDER GENMON \
 				MAILWATCH MOUNT MPC NETLOAD NOTES PULSEAUDIO \
-				QUICKLAUNCHER SMARTBOOKMARK SYSTEMLOAD TIMER \
+				SMARTBOOKMARK SYSTEMLOAD TIMER \
 				TIMEOUT VERVE WAVELAN WEATHER WHISKERMENU \
 				WMDOCK XKB
 BATTERY_DESC=			Battery monitor panel plugin for Xfce4
@@ -78,7 +82,6 @@ MPC_DESC=			Musicpd client plugin for the Xfce panel
 NETLOAD_DESC=			Network Load plugin for Xfce4
 NOTES_DESC=			Notes plugin for the Xfce panel
 PULSEAUDIO_DESC=		Panel plugin for controlling PulseAudio mixer
-QUICKLAUNCHER_DESC=		Quicklauncher plugin for Xfce
 SMARTBOOKMARK_DESC=		Query search engines from the Xfce panel
 SYSTEMLOAD_DESC=		System Load plugin for Xfce4 panel
 TIMEOUT_DESC=			Prompts the user to take a break every X minutes
@@ -106,7 +109,6 @@ MPC_RUN_DEPENDS=		xfce4-mpc-plugin>=0:audio/xfce4-mpc-plugin
 NETLOAD_RUN_DEPENDS=		xfce4-netload-plugin>=0:sysutils/xfce4-netload-plugin
 NOTES_RUN_DEPENDS=		xfce4-notes-plugin>=0:deskutils/xfce4-notes-plugin
 PULSEAUDIO_RUN_DEPENDS=		xfce4-pulseaudio-plugin>=0:audio/xfce4-pulseaudio-plugin
-QUICKLAUNCHER_RUN_DEPENDS=	xfce4-quicklauncher-plugin>=0:x11/xfce4-quicklauncher-plugin
 SMARTBOOKMARK_RUN_DEPENDS=	xfce4-smartbookmark-plugin>=0:www/xfce4-smartbookmark-plugin
 SYSTEMLOAD_RUN_DEPENDS=		xfce4-systemload-plugin>=0:sysutils/xfce4-systemload-plugin
 TIMEOUT_RUN_DEPENDS=		xfce4-time-out-plugin>=0:x11-clocks/xfce4-time-out-plugin
@@ -127,20 +129,16 @@ ARCHIVE_RUN_DEPENDS=		thunar-archive-plugin>=0:archivers/thunar-archive-plugin
 MEDIATAGS_RUN_DEPENDS=		thunar-media-tags-plugin>=0:audio/thunar-media-tags-plugin
 VCS_RUN_DEPENDS=		thunar-vcs-plugin>=0:devel/thunar-vcs-plugin
 
-OPTIONS_GROUP_UNOFFICIAL=	BSDCPUFREQ EQUAKE MENULIBRE PRINT THEMES \
-				VOLUMED
+OPTIONS_GROUP_UNOFFICIAL=	BSDCPUFREQ EQUAKE MENULIBRE THEMES
 BSDCPUFREQ_DESC=		Display the CPU clock frequency in Xfce panel
 EQUAKE_DESC=			Earthquake monitor plugin for the Xfce panel
 MENULIBRE_DESC=			Advanced compliant menu editor
-PRINT_DESC=			Print system support for the Xfce Desktop
 THEMES_DESC=			Additional themes for xfwm4
 VOLUMED_DESC=			Volume management daemon for the Xfce desktop
 
 BSDCPUFREQ_RUN_DEPENDS=		xfce4-bsdcpufreq-plugin>=0:sysutils/xfce4-bsdcpufreq-plugin
 EQUAKE_RUN_DEPENDS=		xfce4-equake-plugin>=0:science/xfce4-equake-plugin
 MENULIBRE_RUN_DEPENDS=		py${PYTHON3_DEFAULT:S/.//}-menulibre>=0:x11/menulibre
-PRINT_RUN_DEPENDS=		xfce4-print>=0:print/xfce4-print
 THEMES_RUN_DEPENDS=		xfce4-wm-themes>=0:misc/xfce4-wm-themes
-VOLUMED_RUN_DEPENDS=		xfce4-volumed>=0:deskutils/xfce4-volumed
 
 .include <bsd.port.mk>

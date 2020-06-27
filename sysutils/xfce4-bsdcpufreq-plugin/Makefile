@@ -1,5 +1,5 @@
 # Created by: Thomas Zander <riggs@FreeBSD.org>
-# $FreeBSD: head/sysutils/xfce4-bsdcpufreq-plugin/Makefile 515198 2019-10-22 14:59:36Z riggs $
+# $FreeBSD: head/sysutils/xfce4-bsdcpufreq-plugin/Makefile 517057 2019-11-08 13:11:05Z tobik $
 #
 
 PORTNAME=	xfce4-bsdcpufreq-plugin
@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 
-USES=		compiler:c11 pkgconfig xfce
+USES=		compiler:c11 gnome pkgconfig xfce
 USE_XFCE=	panel
 USE_GNOME=	cairo gdkpixbuf2 gtk30
 

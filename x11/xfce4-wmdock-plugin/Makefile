@@ -1,9 +1,9 @@
 # Created by: Martin Wilke <miwi@FreeBSD.org>
-# $FreeBSD: head/x11/xfce4-wmdock-plugin/Makefile 514214 2019-10-10 08:59:11Z pkubaj $
+# $FreeBSD: head/x11/xfce4-wmdock-plugin/Makefile 540614 2020-06-27 15:02:12Z madpilot $
 
 PORTNAME=	xfce4-wmdock-plugin
 PORTVERSION=	0.6.0
-PORTREVISION=	4
+PORTREVISION=	5
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4

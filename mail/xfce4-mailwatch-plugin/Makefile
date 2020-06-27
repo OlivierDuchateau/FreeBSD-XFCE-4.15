@@ -3,7 +3,7 @@
 
 PORTNAME=	xfce4-mailwatch-plugin
 PORTVERSION=	1.2.0
-PORTREVISION=	10
+PORTREVISION=	11
 CATEGORIES=	mail xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4

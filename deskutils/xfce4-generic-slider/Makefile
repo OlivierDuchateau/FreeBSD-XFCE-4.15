@@ -3,7 +3,7 @@
 
 PORTNAME=	xfce4-generic-slider
 PORTVERSION=	0.0.20171223
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	deskutils
 
 MAINTAINER=	ehaupt@FreeBSD.org

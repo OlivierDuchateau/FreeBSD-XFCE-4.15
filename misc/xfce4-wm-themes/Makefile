@@ -1,5 +1,5 @@
 # Created by: James Earl <jdearl@telus.net>
-# $FreeBSD: head/misc/xfce4-wm-themes/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/misc/xfce4-wm-themes/Makefile 517067 2019-11-08 14:06:27Z tobik $
 
 PORTNAME=	xfce4-wm-themes
 PORTVERSION=	4.10.0
@@ -15,7 +15,7 @@ COMMENT=	Additional themes for xfwm4
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=	gmake tar:bzip2
+USES=		gmake gnome tar:bzip2
 
 GNU_CONFIGURE=	yes
 INSTALLS_ICONS=	yes

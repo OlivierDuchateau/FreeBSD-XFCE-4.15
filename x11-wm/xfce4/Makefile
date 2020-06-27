@@ -1,12 +1,12 @@
 # Created by: James Earl <jdearl@telus.net>
-# $FreeBSD: head/x11-wm/xfce4/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/x11-wm/xfce4/Makefile 536752 2020-05-28 08:43:29Z danfe $
 
 PORTNAME=	xfce
-PORTVERSION=	4.14
+PORTVERSION=	4.15
 CATEGORIES=	x11-wm xfce
 
 MAINTAINER=	xfce@FreeBSD.org
-COMMENT=	meta-port for the Xfce Desktop Environment
+COMMENT=	Meta-port for the Xfce Desktop Environment
 
 RUN_DEPENDS=	xfwm4:x11-wm/xfce4-wm \
 		xfce4-session:x11-wm/xfce4-session \

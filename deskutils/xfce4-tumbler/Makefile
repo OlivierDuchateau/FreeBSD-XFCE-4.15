@@ -1,5 +1,5 @@
 # Created by: Olivier Duchateau
-# $FreeBSD: head/deskutils/xfce4-tumbler/Makefile 533681 2020-05-02 10:00:12Z tcberner $
+# $FreeBSD: head/deskutils/xfce4-tumbler/Makefile 537559 2020-06-02 14:47:29Z tcberner $
 
 PORTNAME=	tumbler
 PORTVERSION=	0.2.8
