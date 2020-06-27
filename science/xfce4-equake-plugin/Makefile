@@ -3,7 +3,7 @@
 
 PORTNAME=	xfce4-equake-plugin
 PORTVERSION=	1.3.8.1
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	science xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
