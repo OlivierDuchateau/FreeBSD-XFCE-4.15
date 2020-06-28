@@ -1,5 +1,5 @@
 # Created by: James Earl <jdearl@telus.net>
-# $FreeBSD: head/print/xfce4-print/Makefile 540614 2020-06-27 15:02:12Z madpilot $
+# $FreeBSD: head/print/xfce4-print/Makefile 540717 2020-06-28 13:58:49Z madpilot $
 
 PORTNAME=	xfce4-print
 PORTVERSION=	4.6.1
@@ -29,6 +29,7 @@ USE_XFCE=	libgui xfconf
 USE_XORG=	x11
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS=	--disable-cups
 INSTALLS_ICONS=	yes
 INSTALL_TARGET=	install-strip
 
