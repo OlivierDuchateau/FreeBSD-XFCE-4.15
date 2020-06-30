@@ -145,6 +145,5 @@ share/icons/hicolor/scalable/apps/org.xfce.thunar.svg
 %%NLS%%share/locale/zh_HK/LC_MESSAGES/thunar.mo
 %%NLS%%share/locale/zh_TW/LC_MESSAGES/thunar.mo
 share/metainfo/org.xfce.thunar.appdata.xml
-share/pixmaps/Thunar/Thunar-about-logo.png
 share/polkit-1/actions/org.xfce.thunar.policy
 %%PLUG_TPA%%share/xfce4/panel/plugins/thunar-tpa.desktop
