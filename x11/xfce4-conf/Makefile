@@ -25,7 +25,8 @@ USE_XORG=	x11
 
 GNU_CONFIGURE=	yes
 INSTALL_TARGET=	install-strip
-CONFIGURE_ARGS=	--without-html-dir
+CONFIGURE_ARGS=	--without-html-dir \
+		--without-bash-completion-dir
 
 PORTSCOUT=	limitw:1,even
 
