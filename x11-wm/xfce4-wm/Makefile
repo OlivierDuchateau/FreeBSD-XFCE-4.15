@@ -1,8 +1,8 @@
 # Created by: James Earl <jdearl@telus.net>
-# $FreeBSD: head/x11-wm/xfce4-wm/Makefile 533591 2020-05-01 23:39:52Z madpilot $
+# $FreeBSD: head/x11-wm/xfce4-wm/Makefile 543551 2020-07-27 21:57:43Z madpilot $
 
 PORTNAME=	xfce4-wm
-PORTVERSION=	4.14.2
+PORTVERSION=	4.14.3
 CATEGORIES=	x11-wm xfce
 MASTER_SITES=	XFCE
 DISTNAME=	xfwm4-${DISTVERSIONFULL}
@@ -20,7 +20,7 @@ USES=		compiler:c11 gettext-tools gmake gnome pkgconfig tar:bzip2 \
 USE_GNOME=	cairo gtk30 intltool libwnck3
 USE_XFCE=	libmenu xfconf
 USE_XORG=	ice sm x11 xcomposite xdamage xext xfixes xi xinerama \
-		xorgproto xpresent xrandr xrender
+		xorgproto xpresent xrandr xrender xres
 
 CONFIGURE_ARGS=	--enable-xsync \
 		--enable-render \

@@ -1,9 +1,8 @@
 # Created by: Martin Wilke (miwi@FreeBSD.org)
-# $FreeBSD: head/x11-clocks/xfce4-timer-plugin/Makefile 513556 2019-10-02 08:32:22Z pkubaj $
+# $FreeBSD: head/x11-clocks/xfce4-timer-plugin/Makefile 543384 2020-07-24 22:43:44Z madpilot $
 
 PORTNAME=	xfce4-timer-plugin
-PORTVERSION=	1.7.0
-PORTREVISION=	2
+PORTVERSION=	1.7.1
 CATEGORIES=	x11-clocks xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
