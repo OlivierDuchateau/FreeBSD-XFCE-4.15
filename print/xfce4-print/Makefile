@@ -14,7 +14,7 @@ COMMENT=	Print system support for the Xfce Desktop
 
 LICENSE=	GPLv2
 
-BROKEN=		Depends on remove gtk2 library support
+BROKEN=		Depends on removed gtk2 library support
 
 BUILD_DEPENDS=	a2ps:print/a2ps
 RUN_DEPENDS=	a2ps:print/a2ps
