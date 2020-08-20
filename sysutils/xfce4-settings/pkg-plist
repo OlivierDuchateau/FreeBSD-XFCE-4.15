@@ -37,7 +37,7 @@ share/icons/hicolor/128x128/apps/org.xfce.settings.editor.png
 share/icons/hicolor/128x128/apps/org.xfce.settings.keyboard.png
 share/icons/hicolor/128x128/apps/org.xfce.settings.manager.png
 share/icons/hicolor/128x128/apps/org.xfce.settings.mouse.png
-share/icons/hicolor/128x128/apps/org.xfce.settings.preferred-applications.png
+share/icons/hicolor/128x128/apps/org.xfce.settings.default-applications.png
 share/icons/hicolor/128x128/devices/xfce-display-extend.png
 share/icons/hicolor/128x128/devices/xfce-display-external.png
 share/icons/hicolor/128x128/devices/xfce-display-internal.png
@@ -51,7 +51,7 @@ share/icons/hicolor/16x16/apps/org.xfce.settings.editor.png
 share/icons/hicolor/16x16/apps/org.xfce.settings.keyboard.png
 share/icons/hicolor/16x16/apps/org.xfce.settings.manager.png
 share/icons/hicolor/16x16/apps/org.xfce.settings.mouse.png
-share/icons/hicolor/16x16/apps/org.xfce.settings.preferred-applications.png
+share/icons/hicolor/16x16/apps/org.xfce.settings.default-applications.png
 share/icons/hicolor/48x48/apps/org.xfce.settings.accessibility.png
 share/icons/hicolor/48x48/apps/org.xfce.settings.appearance.png
 share/icons/hicolor/48x48/apps/org.xfce.settings.color.png
@@ -60,7 +60,7 @@ share/icons/hicolor/48x48/apps/org.xfce.settings.editor.png
 share/icons/hicolor/48x48/apps/org.xfce.settings.keyboard.png
 share/icons/hicolor/48x48/apps/org.xfce.settings.manager.png
 share/icons/hicolor/48x48/apps/org.xfce.settings.mouse.png
-share/icons/hicolor/48x48/apps/org.xfce.settings.preferred-applications.png
+share/icons/hicolor/48x48/apps/org.xfce.settings.default-applications.png
 share/icons/hicolor/scalable/apps/org.xfce.settings.accessibility.svg
 share/icons/hicolor/scalable/apps/org.xfce.settings.appearance.svg
 share/icons/hicolor/scalable/apps/org.xfce.settings.color.svg
@@ -69,11 +69,11 @@ share/icons/hicolor/scalable/apps/org.xfce.settings.editor.svg
 share/icons/hicolor/scalable/apps/org.xfce.settings.keyboard.svg
 share/icons/hicolor/scalable/apps/org.xfce.settings.manager.svg
 share/icons/hicolor/scalable/apps/org.xfce.settings.mouse.svg
-share/icons/hicolor/scalable/apps/org.xfce.settings.preferred-applications.svg
+share/icons/hicolor/scalable/apps/org.xfce.settings.default-applications.svg
 share/locale/be@tarask/LC_MESSAGES/xfce4-settings.mo
 share/locale/et/LC_MESSAGES/xfce4-settings.mo
 share/locale/hye/LC_MESSAGES/xfce4-settings.mo
-share/xfce4/helpers/Thunar.desktop
+share/xfce4/helpers/thunar.desktop
 share/xfce4/helpers/aterm.desktop
 share/xfce4/helpers/balsa.desktop
 share/xfce4/helpers/brave.desktop
