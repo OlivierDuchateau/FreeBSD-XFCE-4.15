@@ -2,7 +2,7 @@
 # $FreeBSD: head/misc/xfce4-appfinder/Makefile 513450 2019-10-01 04:33:16Z pkubaj $
 
 PORTNAME=	xfce4-appfinder
-PORTVERSION=	4.15.0
+PORTVERSION=	4.15.1
 CATEGORIES=	misc xfce
 MASTER_SITES=	XFCE
 DIST_SUBDIR=	xfce4
