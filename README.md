@@ -19,3 +19,4 @@ There is no implicit or explicit warranty about the working state of the ports p
 ## Relevant external links
 
 * https://simon.shimmerproject.org/2019/10/19/xfce-4-15-development-phase-starting/
+* https://wiki.xfce.org/releng/4.16/roadmap
