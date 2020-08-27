@@ -15,10 +15,9 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 BUILD_DEPENDS=	xdt-csource:devel/xfce4-dev-tools
 LIB_DEPENDS=	liblightdm-gobject-1.so:x11/lightdm
 
-USES=		gettext gmake gnome localbase pkgconfig xorg # xfce
+USES=		gettext gmake gnome localbase pkgconfig xorg
 USE_CSTD=	c99
 USE_GNOME=	cairo gdkpixbuf2 gtk30 intltool
-#USE_XFCE=	libexo
 USE_XORG=	x11
 
 GNU_CONFIGURE=	yes
