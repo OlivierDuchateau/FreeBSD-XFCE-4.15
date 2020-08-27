@@ -1,0 +1,19 @@
+--- src/Makefile.in.orig	2020-03-29 21:01:54 UTC
++++ src/Makefile.in
+@@ -1344,13 +1344,13 @@ gs-marshal.h: gs-marshal.list
+ 	@GLIB_GENMARSHAL@ $< --prefix=gs_marshal --header > $@
+ 
+ @MAINTAINER_MODE_TRUE@xfce4-screensaver-dialog-css.h: $(srcdir)/xfce4-screensaver-dialog.css Makefile
+-@MAINTAINER_MODE_TRUE@	$(AM_V_GEN) exo-csource --static --name=xfce4_screensaver_dialog_css $< >$@
++@MAINTAINER_MODE_TRUE@	$(AM_V_GEN) xdt-csource --static --name=xfce4_screensaver_dialog_css $< >$@
+ 
+ @MAINTAINER_MODE_TRUE@xfce4-screensaver-dialog-ui.h: $(srcdir)/xfce4-screensaver-dialog.ui Makefile
+-@MAINTAINER_MODE_TRUE@	$(AM_V_GEN) exo-csource --static --strip-comments --strip-content --name=xfce4_screensaver_dialog_ui $< >$@
++@MAINTAINER_MODE_TRUE@	$(AM_V_GEN) xdt-csource --static --strip-comments --strip-content --name=xfce4_screensaver_dialog_ui $< >$@
+ 
+ @MAINTAINER_MODE_TRUE@xfce4-screensaver-preferences-ui.h: $(srcdir)/xfce4-screensaver-preferences.ui Makefile
+-@MAINTAINER_MODE_TRUE@	$(AM_V_GEN) exo-csource --static --strip-comments --strip-content --name=xfce4_screensaver_preferences_ui $< >$@
++@MAINTAINER_MODE_TRUE@	$(AM_V_GEN) xdt-csource --static --strip-comments --strip-content --name=xfce4_screensaver_preferences_ui $< >$@
+ 
+ install-exec-hook:
+ 	@if [ "x@NEED_SETUID@" = "xyes" ]; then                                                 \
