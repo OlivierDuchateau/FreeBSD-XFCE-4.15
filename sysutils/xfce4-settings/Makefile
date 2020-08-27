@@ -17,8 +17,8 @@ LIB_DEPENDS=	libcolord.so:graphics/colord \
 		libfontconfig.so:x11-fonts/fontconfig \
 		libxklavier.so:x11/libxklavier
 
-USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
-		tar:bzip2 xfce xorg
+USES=		compiler:c11 desktop-file-utils gettext-tools gmake gnome \
+		libtool pkgconfig shebangfix tar:bzip2 xfce xorg
 USE_GNOME=	cairo glib20 gtk30 intltool
 USE_XFCE=	garcon libexo xfconf
 USE_XORG=	xorgproto x11 xcursor xi xrandr
@@ -27,6 +27,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-xorg-libinput \
 		--enable-pluggable-dialogs
 INSTALLS_ICONS=	yes
+SHEBANG_FILES=	dialogs/mime-settings/helpers/xfce4-compose-mail
 
 PORTSCOUT=	limitw:1,even
 
