@@ -1,5 +1,5 @@
 # Created by: Ben Woods <woodsb02@FreeBSD.org>
-# $FreeBSD: head/x11/lightdm-gtk-greeter/Makefile 526738 2020-02-22 05:42:28Z woodsb02 $
+# $FreeBSD: head/x11/lightdm-gtk-greeter/Makefile 546944 2020-08-29 19:51:40Z madpilot $
 
 PORTNAME=	lightdm-gtk-greeter
 PORTVERSION=	2.0.8
