@@ -1,9 +1,10 @@
 # Created by: Michael Johnson <ahze@FreeBSD.org>
-# $FreeBSD: head/www/midori/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/www/midori/Makefile 546967 2020-08-30 03:10:23Z novel $
 
 PORTNAME=	midori
 PORTVERSION=	9.0
 DISTVERSIONPREFIX=	v
+PORTREVISION=	1
 CATEGORIES=	www xfce
 
 MAINTAINER=	xfce@FreeBSD.org
