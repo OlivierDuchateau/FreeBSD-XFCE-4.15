@@ -1,12 +1,12 @@
 # Created by: Emanuel Haupt <ehaupt@FreeBSD.org>
-# $FreeBSD: head/deskutils/xfce4-notifyd/Makefile 534260 2020-05-07 11:41:47Z ehaupt $
+# $FreeBSD: head/deskutils/xfce4-notifyd/Makefile 547281 2020-09-01 16:24:58Z ehaupt $
 #
 # !!!NOTE!!! Update of x11-toolkits/gtk30 (specially >= 3.20.x) must be
 # accompanied by PORTREVISION bumps of this port.
 # Support of GTK+ is checked at compile time and themes directories too.
 
 PORTNAME=	xfce4-notifyd
-PORTVERSION=	0.6.1
+PORTVERSION=	0.6.2
 CATEGORIES=	deskutils xfce
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4
