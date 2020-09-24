@@ -2,7 +2,7 @@
 # $FreeBSD: head/x11/xfce4-dashboard/Makefile 519039 2019-12-04 18:04:55Z madpilot $
 
 PORTNAME=	dashboard
-PORTVERSION=	0.7.7
+PORTVERSION=	0.7.8
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/apps
 PKGNAMEPREFIX=	xfce4-
