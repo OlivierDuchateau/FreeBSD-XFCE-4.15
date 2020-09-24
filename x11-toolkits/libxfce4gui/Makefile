@@ -14,6 +14,8 @@ COMMENT=	Various Gtk widgets for the Xfce Desktop
 
 LICENSE=	GPLv2
 
+BROKEN=		Depends on removed gtk2 library support
+
 LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 
