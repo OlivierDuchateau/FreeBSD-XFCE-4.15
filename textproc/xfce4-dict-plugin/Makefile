@@ -1,8 +1,8 @@
 # Created by: Oliver Lehmann (oliver@FreeBSD.org)
-# $FreeBSD: head/textproc/xfce4-dict-plugin/Makefile 513991 2019-10-07 19:05:59Z madpilot $
+# $FreeBSD: head/textproc/xfce4-dict-plugin/Makefile 553093 2020-10-23 07:43:11Z madpilot $
 
 PORTNAME=	xfce4-dict
-PORTVERSION=	0.8.3
+PORTVERSION=	0.8.4
 CATEGORIES=	textproc xfce
 MASTER_SITES=	XFCE/apps
 PKGNAMESUFFIX=	-plugin
