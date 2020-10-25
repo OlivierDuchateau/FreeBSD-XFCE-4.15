@@ -2,7 +2,7 @@
 # $FreeBSD: head/sysutils/catfish/Makefile 523365 2020-01-17 21:58:54Z madpilot $
 
 PORTNAME=	catfish
-PORTVERSION=	1.4.13
+PORTVERSION=	4.15.0
 CATEGORIES=	sysutils
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4
