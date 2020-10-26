@@ -29,7 +29,7 @@ https://gitlab.xfce.org/xfce/xfwm4/-/issues/444
 
 ## List of ports marked BROKEN due to gtk2 support removal
 
-These are ports from software not being updated by its upstream, and not likely to be ported to gtk3. So these are most probably going to be removed from the FreeBSSD ports tree.
+These are ports from software not being updated by its upstream, and not likely to be ported to gtk3. So these are most probably going to be removed from the FreeBSD ports tree.
 
 - print/xfce4-print
 - science/xfce4-equake-plugin
