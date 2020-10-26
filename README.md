@@ -16,7 +16,49 @@ There is no implicit or explicit warranty about the working state of the ports p
 
 * GTK2 support dropped. All components not ported to GTK3 will be deprecated, marked broken and removed from the ports tree, since they will not be able to compile and work anymore.
 
+## Bugs reported upstream
+
+### xfwm crashes with dual head system when connecting/disconnecting monitor
+
+https://gitlab.xfce.org/xfce/xfwm4/-/issues/444
+
 ## Relevant external links
 
 * https://simon.shimmerproject.org/2019/10/19/xfce-4-15-development-phase-starting/
 * https://wiki.xfce.org/releng/4.16/roadmap
+
+## List of ports marked BROKEN due to gtk2 support removal
+
+These are ports from software not being updated by its upstream, and not likely to be ported to gtk3. So these are most probably going to be removed from the FreeBSSD ports tree.
+
+- print/xfce4-print
+- science/xfce4-equake-plugin
+- mail/xfce4-mailwatch-plugin
+- deskutils/xfce4-generic-slider
+- deskutils/xfce4-volumed
+- deskutils/orage
+- deskutils/xfce4-notes-plugin
+- x11/xfce4-wmdock-plugin
+- x11/xfce4-quicklauncher-plugin
+- x11/xfce4-embed-plugin
+- x11-toolkits/libxfce4gui
+- audio/xfce4-mixer
+
+## List of ports failing to build due to other issues
+
+These ones are failing to build due to various changes to XFCE core libraries.
+
+I'm guessing these have a better chance of being fixed. The fixes are trivial for some. Some of these already got fixes in the head of their repository (TODO mark the ones with fixes in their repos)
+
+- sysutils/xfce4-bsdcpufreq-plugin
+- sysutils/xfce4-systemload-plugin
+- sysutils/xfce4-genmon-plugin
+- www/xfce4-smartbookmark-plugin
+- math/xfce4-calculator-plugin
+- sysutils/xfce4-mount-plugin
+- deskutils/xfce4-xkb-plugin
+- sysutils/xfce4-cpugraph-plugin
+- sysutils/xfce4-diskperf-plugin
+- sysutils/xfce4-wavelan-plugin
+- x11/xfce4-verve-plugin
+- x11-clocks/xfce4-stopwatch-plugin
