@@ -56,9 +56,11 @@ I'm guessing these have a better chance of being fixed. The fixes are trivial fo
 - www/xfce4-smartbookmark-plugin
 - math/xfce4-calculator-plugin
 - sysutils/xfce4-mount-plugin
-- deskutils/xfce4-xkb-plugin
+- deskutils/xfce4-xkb-plugin (*)
 - sysutils/xfce4-cpugraph-plugin
 - sysutils/xfce4-diskperf-plugin
 - sysutils/xfce4-wavelan-plugin
 - x11/xfce4-verve-plugin
 - x11-clocks/xfce4-stopwatch-plugin
+
+(*) has commits with fixes in upstream repo (not tested)
