@@ -1,10 +1,10 @@
 # Created by: Michael Johnson <ahze@FreeBSD.org>
-# $FreeBSD: head/www/midori/Makefile 552130 2020-10-12 14:20:08Z bapt $
+# $FreeBSD: head/www/midori/Makefile 553735 2020-10-31 07:11:54Z tcberner $
 
 PORTNAME=	midori
 PORTVERSION=	9.0
 DISTVERSIONPREFIX=	v
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	www xfce
 
 MAINTAINER=	xfce@FreeBSD.org
@@ -19,7 +19,7 @@ LIB_DEPENDS=	libnotify.so:devel/libnotify \
 		libjson-glib-1.0.so:devel/json-glib \
 		libsoup-2.4.so:devel/libsoup \
 		libp11-kit.so:security/p11-kit \
-		libgcr-3.so:security/gcr \
+		libgcr-base-3.so:security/gcr \
 		libpeas-1.0.so:devel/libpeas \
 		libwebkit2gtk-4.0.so:www/webkit2-gtk3
 RUN_DEPENDS=	${LOCALBASE}/share/certs/ca-root-nss.crt:security/ca_root_nss
