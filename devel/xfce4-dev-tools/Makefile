@@ -20,7 +20,7 @@ RUN_DEPENDS=	autoconf>=2.69:devel/autoconf \
 
 USES=		gnome pkgconfig shebangfix tar:bzip2 xfce
 USE_GNOME=	glib20
-SHEBANG_FILES=	helpers/xfce-get-translations
+SHEBANG_FILES=	helpers/xfce-do-release helpers/xfce-get-translations
 
 GNU_CONFIGURE=	yes
 
