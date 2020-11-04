@@ -31,6 +31,13 @@ share/applications/xfce4-about.desktop
 %%GLADE%%share/glade/pixmaps/hicolor/16x16/actions/widget-libxfce4ui-xfce-titled-dialog.png
 %%GLADE%%share/glade/pixmaps/hicolor/22x22/actions/widget-libxfce4ui-xfce-titled-dialog.png
 share/icons/hicolor/48x48/apps/xfce4-logo.png
+share/icons/hicolor/128x128/apps/org.xfce.about.png
+share/icons/hicolor/128x128/apps/xfce4-logo.png
+share/icons/hicolor/16x16/apps/org.xfce.about.png
+share/icons/hicolor/16x16/apps/xfce4-logo.png
+share/icons/hicolor/48x48/apps/org.xfce.about.png
+share/icons/hicolor/scalable/apps/org.xfce.about.svg
+share/icons/hicolor/scalable/apps/xfce4-logo.svg
 %%NLS%%share/locale/am/LC_MESSAGES/libxfce4ui.mo
 %%NLS%%share/locale/ar/LC_MESSAGES/libxfce4ui.mo
 %%NLS%%share/locale/ast/LC_MESSAGES/libxfce4ui.mo
