@@ -1,7 +1,7 @@
-# $FreeBSD: head/x11/xfce4-screensaver/Makefile 529885 2020-03-30 13:08:21Z madpilot $
+# $FreeBSD: head/x11/xfce4-screensaver/Makefile 554653 2020-11-08 21:51:36Z madpilot $
 
 PORTNAME=	xfce4-screensaver
-PORTVERSION=	0.1.10
+PORTVERSION=	0.1.11
 PORTREVISION=	1
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/apps
