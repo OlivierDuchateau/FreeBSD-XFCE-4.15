@@ -2,7 +2,7 @@
 # $FreeBSD: head/sysutils/garcon/Makefile 530756 2020-04-05 09:13:21Z madpilot $
 
 PORTNAME=	garcon
-PORTVERSION=	0.7.1
+PORTVERSION=	0.7.2
 CATEGORIES=	sysutils xfce
 MASTER_SITES=	XFCE
 DIST_SUBDIR=	xfce4
