@@ -18,7 +18,7 @@ There is no implicit or explicit warranty about the working state of the ports p
 
 ## Bugs reported upstream
 
-### xfwm crashes with dual head system when connecting/disconnecting monitor
+### xfwm crashes on dual head system when connecting/disconnecting monitor
 
 https://gitlab.xfce.org/xfce/xfwm4/-/issues/444
 
