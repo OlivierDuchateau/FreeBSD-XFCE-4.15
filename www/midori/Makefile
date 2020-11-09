@@ -1,10 +1,10 @@
 # Created by: Michael Johnson <ahze@FreeBSD.org>
-# $FreeBSD: head/www/midori/Makefile 553735 2020-10-31 07:11:54Z tcberner $
+# $FreeBSD: head/www/midori/Makefile 554733 2020-11-09 17:08:12Z tcberner $
 
 PORTNAME=	midori
 PORTVERSION=	9.0
 DISTVERSIONPREFIX=	v
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	www xfce
 
 MAINTAINER=	xfce@FreeBSD.org
@@ -13,8 +13,7 @@ COMMENT=	Lightweight web browser using WebKit browser engine
 LICENSE=	LGPL21 MIT
 LICENSE_COMB=	multi
 
-BUILD_DEPENDS=	rsvg-convert:graphics/librsvg2 \
-		valac:lang/vala
+BUILD_DEPENDS=	valac:lang/vala
 LIB_DEPENDS=	libnotify.so:devel/libnotify \
 		libjson-glib-1.0.so:devel/json-glib \
 		libsoup-2.4.so:devel/libsoup \
@@ -26,7 +25,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/certs/ca-root-nss.crt:security/ca_root_nss
 
 USES=		cmake compiler:c++11-lang desktop-file-utils gettext gnome \
 		libarchive localbase:ldflags pkgconfig sqlite tar:bzip2 xorg
-USE_GNOME=	cairo glib20 gtk30 intltool introspection libxml2
+USE_GNOME=	cairo glib20 gtk30 intltool introspection librsvg2:build \
+		libxml2
 USE_XORG=	xscrnsaver
 
 CFLAGS+=	-Wno-return-type
