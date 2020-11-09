@@ -41,7 +41,6 @@ These are ports from software not being updated by its upstream, and not likely 
 - x11/xfce4-quicklauncher-plugin
 - x11/xfce4-embed-plugin
 - x11-toolkits/libxfce4gui
-- audio/xfce4-mixer
 
 ## List of ports failing to build due to other issues
 
