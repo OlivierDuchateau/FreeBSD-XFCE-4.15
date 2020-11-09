@@ -33,7 +33,6 @@ These are ports from software not being updated by its upstream, and not likely 
 
 - print/xfce4-print
 - science/xfce4-equake-plugin
-- mail/xfce4-mailwatch-plugin
 - deskutils/xfce4-generic-slider
 - deskutils/xfce4-volumed
 - deskutils/orage
