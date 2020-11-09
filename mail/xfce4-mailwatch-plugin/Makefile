@@ -1,9 +1,8 @@
 # Created by: Martin Wilke (miwi@FreeBSD.org)
-# $FreeBSD: head/mail/xfce4-mailwatch-plugin/Makefile 513678 2019-10-03 17:27:17Z pkubaj $
+# $FreeBSD: head/mail/xfce4-mailwatch-plugin/Makefile 554711 2020-11-09 11:42:57Z madpilot $
 
 PORTNAME=	xfce4-mailwatch-plugin
-PORTVERSION=	1.2.0
-PORTREVISION=	11
+PORTVERSION=	1.3.0
 CATEGORIES=	mail xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
@@ -14,17 +13,14 @@ COMMENT=	Mail notification applet for the Xfce panel
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-BROKEN=		Depends on removed gtk2 panel library
-
 LIB_DEPENDS=	libgnutls.so:security/gnutls \
-		libgcrypt.so:security/libgcrypt \
 		libgpg-error.so:security/libgpg-error \
 		libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 
 USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
-		tar:bzip2 xfce:gtk2 xorg
-USE_GNOME=	cairo glib20 gtk20 intltool
+		tar:bzip2 xfce xorg
+USE_GNOME=	cairo glib20 gtk30 intltool
 USE_XFCE=	panel
 USE_XORG=	x11
 
