@@ -36,7 +36,6 @@ These are ports from software not being updated by its upstream, and not likely 
 - deskutils/xfce4-generic-slider
 - deskutils/xfce4-volumed
 - deskutils/orage
-- deskutils/xfce4-notes-plugin
 - x11/xfce4-wmdock-plugin
 - x11/xfce4-quicklauncher-plugin
 - x11/xfce4-embed-plugin
