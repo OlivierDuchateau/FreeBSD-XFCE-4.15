@@ -55,6 +55,7 @@ I'm guessing these have a better chance of being fixed. The fixes are trivial fo
 - math/xfce4-calculator-plugin
 - sysutils/xfce4-mount-plugin
 - deskutils/xfce4-xkb-plugin (*)
+- deskutils/xfce4-notes-plugin (*)
 - sysutils/xfce4-cpugraph-plugin
 - sysutils/xfce4-diskperf-plugin
 - sysutils/xfce4-wavelan-plugin
