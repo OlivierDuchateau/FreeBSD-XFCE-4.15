@@ -35,6 +35,7 @@ libdata/pkgconfig/tumbler-1.pc
 share/dbus-1/services/org.xfce.Tumbler.Cache1.service
 share/dbus-1/services/org.xfce.Tumbler.Manager1.service
 share/dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service
+share/icons/hicolor/32x32/apps/org.xfce.tumbler.png
 %%NLS%%share/locale/ar/LC_MESSAGES/tumbler.mo
 %%NLS%%share/locale/ast/LC_MESSAGES/tumbler.mo
 %%NLS%%share/locale/be/LC_MESSAGES/tumbler.mo
@@ -53,6 +54,7 @@ share/dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service
 %%NLS%%share/locale/fr/LC_MESSAGES/tumbler.mo
 %%NLS%%share/locale/gl/LC_MESSAGES/tumbler.mo
 %%NLS%%share/locale/he/LC_MESSAGES/tumbler.mo
+%%NLS%%share/locale/hi/LC_MESSAGES/tumbler.mo
 %%NLS%%share/locale/hr/LC_MESSAGES/tumbler.mo
 %%NLS%%share/locale/hu/LC_MESSAGES/tumbler.mo
 %%NLS%%share/locale/hy_AM/LC_MESSAGES/tumbler.mo
