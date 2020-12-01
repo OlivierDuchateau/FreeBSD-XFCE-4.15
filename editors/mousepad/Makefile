@@ -1,8 +1,8 @@
 # Created by: Oliver Lehmann <oliver@FreeBSD.org>
-# $FreeBSD: head/editors/mousepad/Makefile 512378 2019-09-19 23:46:33Z madpilot $
+# $FreeBSD: head/editors/mousepad/Makefile 556764 2020-12-01 17:10:15Z madpilot $
 
 PORTNAME=	mousepad
-PORTVERSION=	0.4.90
+PORTVERSION=	0.5.0
 CATEGORIES=	editors xfce
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4
