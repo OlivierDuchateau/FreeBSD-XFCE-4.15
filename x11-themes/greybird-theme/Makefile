@@ -1,10 +1,9 @@
 # Created by: Olivier Duchateau
-# $FreeBSD: head/x11-themes/greybird-theme/Makefile 554733 2020-11-09 17:08:12Z tcberner $
+# $FreeBSD: head/x11-themes/greybird-theme/Makefile 556766 2020-12-01 17:11:20Z madpilot $
 
 PORTNAME=	greybird
-PORTVERSION=	3.22.12
+PORTVERSION=	3.22.13
 DISTVERSIONPREFIX=	v
-PORTREVISION=	1
 CATEGORIES=	x11-themes xfce
 PKGNAMESUFFIX=	-theme
 
