@@ -15,8 +15,8 @@ include/xfce4/libxfce4ui-2/libxfce4ui/xfce-gtk-extensions.h
 include/xfce4/libxfce4ui-2/libxfce4ui/xfce-sm-client.h
 include/xfce4/libxfce4ui-2/libxfce4ui/xfce-spawn.h
 include/xfce4/libxfce4ui-2/libxfce4ui/xfce-titled-dialog.h
-%%GIR%%lib/girepository-1.0/libxfce4ui-2.0.typelib
-%%GLADE%%lib/glade/modules/libxfce4uiglade2.so
+%%GIR%%lib/girepository-1.0/Libxfce4ui-2.0.typelib
+%%GLADE%%lib/glade/modules/Libxfce4uiglade2.so
 lib/libxfce4kbd-private-3.so
 lib/libxfce4kbd-private-3.so.0
 lib/libxfce4kbd-private-3.so.0.0.0
