@@ -13,7 +13,7 @@ include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-image.h
 include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-macros.h
 include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-plugin-provider.h
 include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-plugin.h
-%%GIR%%lib/girepository-1.0/libxfce4panel-2.0.typelib
+%%GIR%%lib/girepository-1.0/Libxfce4panel-2.0.typelib
 lib/libxfce4panel-2.0.so
 lib/libxfce4panel-2.0.so.4
 lib/libxfce4panel-2.0.so.4.0.0
@@ -33,7 +33,7 @@ lib/xfce4/panel/wrapper-2.0
 libdata/pkgconfig/libxfce4panel-2.0.pc
 share/applications/panel-desktop-handler.desktop
 share/applications/panel-preferences.desktop
-%%GIR%%share/gir-1.0/libxfce4panel-2.0.gir
+%%GIR%%share/gir-1.0/Libxfce4panel-2.0.gir
 share/icons/hicolor/128x128/apps/org.xfce.panel.png
 share/icons/hicolor/16x16/apps/org.xfce.panel.applicationsmenu.png
 share/icons/hicolor/16x16/apps/org.xfce.panel.png
