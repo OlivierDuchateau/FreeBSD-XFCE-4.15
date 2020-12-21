@@ -48,11 +48,9 @@ These ones are failing to build due to various changes to XFCE core libraries.
 I'm guessing these have a better chance of being fixed. The fixes are trivial for some. Some of these already got fixes in the head of their repository (TODO mark the ones with fixes in their repos)
 
 - sysutils/xfce4-bsdcpufreq-plugin
-- sysutils/xfce4-systemload-plugin
 - sysutils/xfce4-genmon-plugin
 - www/xfce4-smartbookmark-plugin
 - math/xfce4-calculator-plugin
-- sysutils/xfce4-mount-plugin
 - deskutils/xfce4-xkb-plugin (*)
 - deskutils/xfce4-notes-plugin (*)
 - sysutils/xfce4-cpugraph-plugin
