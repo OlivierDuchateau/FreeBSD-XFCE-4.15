@@ -2,7 +2,7 @@
 # $FreeBSD: head/x11/libxfce4util/Makefile 512593 2019-09-22 16:34:42Z pkubaj $
 
 PORTNAME=	libxfce4util
-PORTVERSION=	4.15.6
+PORTVERSION=	4.16.0
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE
 DIST_SUBDIR=	xfce4
