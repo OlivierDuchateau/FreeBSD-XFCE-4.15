@@ -1,9 +1,8 @@
 # Created by: Olivier Duchateau
-# $FreeBSD: head/math/xfce4-calculator-plugin/Makefile 513578 2019-10-02 14:00:52Z pkubaj $
+# $FreeBSD: head/math/xfce4-calculator-plugin/Makefile 559013 2020-12-23 19:45:13Z madpilot $
 
 PORTNAME=	xfce4-calculator-plugin
-PORTVERSION=	0.7.0
-PORTREVISION=	1
+PORTVERSION=	0.7.1
 CATEGORIES=	math xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4

@@ -1,5 +1,5 @@
 # Created by: Matt Lancereau
-# $FreeBSD: madpilot-test/x11/xfce4-terminal/Makefile 10940 2020-12-22 22:14:55Z mad $
+# $FreeBSD: head/x11/xfce4-terminal/Makefile 559016 2020-12-23 19:47:05Z madpilot $
 
 PORTNAME=	xfce4-terminal
 PORTVERSION=	0.8.10
