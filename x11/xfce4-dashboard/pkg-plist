@@ -86,7 +86,7 @@ include/xfdashboard/libxfdashboard/windows-view.h
 include/xfdashboard/libxfdashboard/workspace-selector.h
 lib/libxfdashboard.so
 lib/libxfdashboard.so.0
-lib/libxfdashboard.so.0.700.90
+lib/libxfdashboard.so.0.800.0
 lib/xfdashboard/plugins/clock-view.so
 lib/xfdashboard/plugins/example-search-provider.so
 lib/xfdashboard/plugins/gnome-shell-search-provider.so
@@ -120,6 +120,8 @@ share/icons/hicolor/scalable/apps/org.xfce.xfdashboard.svg
 %%NLS%%share/locale/nb/LC_MESSAGES/xfdashboard.mo
 %%NLS%%share/locale/nl/LC_MESSAGES/xfdashboard.mo
 %%NLS%%share/locale/pl/LC_MESSAGES/xfdashboard.mo
+%%NLS%%share/locale/pt/LC_MESSAGES/xfdashboard.mo
+%%NLS%%share/locale/pt_BR/LC_MESSAGES/xfdashboard.mo
 %%NLS%%share/locale/ru/LC_MESSAGES/xfdashboard.mo
 %%NLS%%share/locale/ru_RU/LC_MESSAGES/xfdashboard.mo
 %%NLS%%share/locale/sl/LC_MESSAGES/xfdashboard.mo
