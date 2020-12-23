@@ -2,7 +2,7 @@
 # $FreeBSD: head/x11-wm/xfce4/Makefile 536752 2020-05-28 08:43:29Z danfe $
 
 PORTNAME=	xfce
-PORTVERSION=	4.15
+PORTVERSION=	4.16
 CATEGORIES=	x11-wm xfce
 
 MAINTAINER=	xfce@FreeBSD.org
