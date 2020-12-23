@@ -1,8 +1,8 @@
 # Created by: Matt Lancereau
-# $FreeBSD: head/x11/xfce4-terminal/Makefile 529886 2020-03-30 13:09:03Z madpilot $
+# $FreeBSD: madpilot-test/x11/xfce4-terminal/Makefile 10940 2020-12-22 22:14:55Z mad $
 
 PORTNAME=	xfce4-terminal
-PORTVERSION=	0.8.9.2
+PORTVERSION=	0.8.10
 CATEGORIES=	x11 xfce
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4
