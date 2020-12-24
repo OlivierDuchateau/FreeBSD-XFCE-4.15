@@ -51,7 +51,7 @@ I'm guessing these have a better chance of being fixed. The fixes are trivial fo
 - deskutils/xfce4-notes-plugin (*)
 - sysutils/xfce4-cpugraph-plugin (*)
 - sysutils/xfce4-wavelan-plugin (*)
-- x11/xfce4-verve-plugin
+- x11/xfce4-verve-plugin (*)
 - x11-clocks/xfce4-stopwatch-plugin (*)
 
 (*) has commits with fixes in upstream repo (not tested)
