@@ -14,7 +14,9 @@ COMMENT=	Calendar application for the Xfce Desktop
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-BROKEN=		Depends on removed gtk2 library support
+BROKEN=		Depends on removed gtk2 panel library
+DEPRECATED=	Unsupported upstream, cannot work with XFCE 4.16
+EXPIRATION_DATE=	2021-01-31
 
 LIB_DEPENDS=	libpopt.so:devel/popt \
 		libdbus-glib-1.so:devel/dbus-glib \
