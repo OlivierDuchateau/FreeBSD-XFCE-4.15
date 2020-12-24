@@ -28,6 +28,8 @@ CONFIGURE_ARGS=	--disable-network-manager \
 		--enable-xfce4panel
 INSTALL_TARGET=	install-strip
 
+PORTSCOUT=	limitw:1,even
+
 OPTIONS_DEFINE=		NLS
 OPTIONS_SUB=		yes
 

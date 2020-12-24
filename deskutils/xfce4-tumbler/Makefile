@@ -30,6 +30,8 @@ CONFIGURE_ARGS=	--enable-xdg-cache \
 		--disable-gtk-doc-html \
 		--without-html-dir
 
+PORTSCOUT=	limitw:1,even
+
 OPTIONS_DEFINE=	NLS FONTS JPEG FFMPEG POPPLER \
 		GSTREAMER ODF COVER
 OPTIONS_DEFAULT=	FONTS JPEG POPPLER GSTREAMER ODF
