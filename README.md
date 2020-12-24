@@ -25,30 +25,27 @@ None
 * https://simon.shimmerproject.org/2019/10/19/xfce-4-15-development-phase-starting/
 * https://wiki.xfce.org/releng/4.16/roadmap
 
-## List of ports marked BROKEN due to gtk2 support removal
+## Lists of "doomed" ports
 
-These are ports from software not being updated by its upstream, and not likely to be ported to gtk3. So these are most probably going to be removed from the FreeBSD ports tree.
+### These are outdated, unmaintained software which will stop  working with the update. They will be removed at the time of update or markeqd deprecated with a short spiration.
 
+- deskutils/orage
 - print/xfce4-print
 - science/xfce4-equake-plugin
-- deskutils/xfce4-generic-slider
-- deskutils/xfce4-volumed
-- deskutils/orage
-- x11/xfce4-wmdock-plugin
-- x11/xfce4-quicklauncher-plugin
-- x11/xfce4-embed-plugin
 - x11-toolkits/libxfce4gui
+- x11/xfce4-embed-plugin
+- x11/xfce4-quicklauncher-plugin
+- x11/xfce4-wmdock-plugin
 
-## List of ports failing to build due to other issues
+### These have updates sitting in their repos and the next release will fix them. They will be marked BROKEN for the time being, but updates are expected soon.
 
-These ones are failing to build due to various changes to XFCE core libraries.
+- deskutils/xfce4-notes-plugin
+- sysutils/xfce4-cpugraph-plugin
+- x11/xfce4-verve-plugin
+- x11-clocks/xfce4-stopwatch-plugin
 
-I'm guessing these have a better chance of being fixed. The fixes are trivial for some. Some of these already got fixes in the head of their repository
+### These are not maintained by xfce@, so while maintainers will be informed I will only mark them as broken at time of update.
 
-- sysutils/xfce4-bsdcpufreq-plugin
-- deskutils/xfce4-notes-plugin (*)
-- sysutils/xfce4-cpugraph-plugin (*)
-- x11/xfce4-verve-plugin (*)
-- x11-clocks/xfce4-stopwatch-plugin (*)
-
-(*) has commits with fixes in upstream repo (not tested)
+deskutils/xfce4-generic-slider
+deskutils/xfce4-volumed
+sysutils/xfce4-bsdcpufreq-plugin
