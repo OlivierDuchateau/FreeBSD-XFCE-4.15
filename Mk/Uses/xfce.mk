@@ -82,7 +82,7 @@ RUN_DEPENDS+=	${${comp}_RUN_DEPENDS}
 .endfor
 
 . if ${USE_XFCE:M*gui} == libgui
-BROKEN?=	x11-toolkits/libxfce4gui depends on dropped GTK2 support
+BROKEN?=	Requires x11-toolkits/libxfce4gui with dropped GTK2 support
 . endif
 
 .endif # end of defined(USE_XFCE)
