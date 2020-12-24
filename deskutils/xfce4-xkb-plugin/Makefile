@@ -1,8 +1,8 @@
-# $FreeBSD: head/deskutils/xfce4-xkb-plugin/Makefile 554733 2020-11-09 17:08:12Z tcberner $
+# $FreeBSD: head/deskutils/xfce4-xkb-plugin/Makefile 559192 2020-12-24 21:18:31Z madpilot $
 
 PORTNAME=	xfce4-xkb-plugin
-PORTVERSION=	0.8.1
-PORTREVISION=	4
+PORTVERSION=	0.8.2
+PORTREVISION=	1
 CATEGORIES=	deskutils xfce
 MASTER_SITES=	XFCE/panel-plugins
 

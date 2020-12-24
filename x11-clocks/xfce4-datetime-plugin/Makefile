@@ -1,8 +1,9 @@
 # Created by: Martin Wilke (miwi@FreeBSD.org)
-# $FreeBSD: head/x11-clocks/xfce4-datetime-plugin/Makefile 514049 2019-10-08 08:09:38Z pkubaj $
+# $FreeBSD: head/x11-clocks/xfce4-datetime-plugin/Makefile 559196 2020-12-24 21:21:00Z madpilot $
 
 PORTNAME=	xfce4-datetime-plugin
-PORTVERSION=	0.8.0
+PORTVERSION=	0.8.1
+PORTREVISION=	1
 CATEGORIES=	x11-clocks xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
