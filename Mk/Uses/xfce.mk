@@ -81,10 +81,6 @@ RUN_DEPENDS+=	${${comp}_RUN_DEPENDS}
 . endif
 .endfor
 
-. if ${USE_XFCE:M*gui} == libgui
-BROKEN?=	Requires x11-toolkits/libxfce4gui with dropped GTK2 support
-. endif
-
 .endif # end of defined(USE_XFCE)
 
 .endif
