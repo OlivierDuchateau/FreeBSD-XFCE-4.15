@@ -15,7 +15,7 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		cmake compiler:c++14-lang gettext-tools gnome localbase pkgconfig \
-		tar:bzip2 xfce:gtk3
+		tar:bzip2 xfce
 USE_GNOME=	cairo gtk30
 USE_XFCE=	panel
 
