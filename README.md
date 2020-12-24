@@ -24,6 +24,7 @@ None
 
 * https://simon.shimmerproject.org/2019/10/19/xfce-4-15-development-phase-starting/
 * https://wiki.xfce.org/releng/4.16/roadmap
+* https://xfce.org/about/news/?post=1608595200
 
 ## Lists of "doomed" ports
 
