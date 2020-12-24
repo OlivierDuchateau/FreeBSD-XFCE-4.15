@@ -15,6 +15,8 @@ COMMENT=	Various Gtk widgets for the Xfce Desktop
 LICENSE=	GPLv2
 
 BROKEN=		Depends on removed gtk2 library support
+DEPRECATED=	Unsupported upstream, cannot work with XFCE 4.16
+EXPIRATION_DATE=	2021-01-31
 
 LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2

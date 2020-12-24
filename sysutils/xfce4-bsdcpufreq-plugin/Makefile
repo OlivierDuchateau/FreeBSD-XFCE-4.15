@@ -12,6 +12,8 @@ COMMENT=	Displays the current CPU clock frequency in the panel
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
+BROKEN=		Fails to compile with xfce4-panel 4.16
+
 LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 

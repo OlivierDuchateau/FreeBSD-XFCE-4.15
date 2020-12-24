@@ -12,6 +12,8 @@ COMMENT=	Displays various information about a WaveLAN device
 
 LICENSE=	BSD3CLAUSE
 
+BROKEN=		Fails to compile with xfce4-panel 4.16
+
 USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
 		tar:bzip2 xfce
 USE_GNOME=	cairo gdkpixbuf2 gtk30 glib20 intltool
