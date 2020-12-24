@@ -46,11 +46,8 @@ These ones are failing to build due to various changes to XFCE core libraries.
 I'm guessing these have a better chance of being fixed. The fixes are trivial for some. Some of these already got fixes in the head of their repository
 
 - sysutils/xfce4-bsdcpufreq-plugin
-- www/xfce4-smartbookmark-plugin (*)
-- deskutils/xfce4-xkb-plugin (*)
 - deskutils/xfce4-notes-plugin (*)
 - sysutils/xfce4-cpugraph-plugin (*)
-- sysutils/xfce4-wavelan-plugin (*)
 - x11/xfce4-verve-plugin (*)
 - x11-clocks/xfce4-stopwatch-plugin (*)
 
