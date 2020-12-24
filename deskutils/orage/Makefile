@@ -24,7 +24,7 @@ LIB_DEPENDS=	libpopt.so:devel/popt \
 		libfreetype.so:print/freetype2
 
 USES=		compiler:c++11-lang desktop-file-utils gettext gmake gnome \
-		libtool pkgconfig tar:bzip2 xfce:gtk2 xorg
+		libtool pkgconfig tar:bzip2 xorg
 USE_GNOME=	cairo gtk20 intltool
 USE_XFCE=	panel
 USE_XORG=	x11
