@@ -13,7 +13,7 @@ COMMENT=	Embed arbitrary windows into the Xfce panel
 
 LICENSE=	GPLv2
 
-BROKEN=		Depends on removed gtk2 panel library
+BROKEN=		Depends on removed XFCE GTK2 support
 DEPRECATED=	Unsupported upstream, cannot work with XFCE 4.16
 EXPIRATION_DATE=	2021-01-31
 

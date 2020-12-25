@@ -13,7 +13,7 @@ COMMENT=	Volume management daemon for the Xfce desktop
 
 LICENSE=	GPLv3
 
-BROKEN=		Depends on removed gtk2 library support
+BROKEN=		Depends on removed XFCE GTK2 support
 
 LIB_DEPENDS=	libnotify.so:devel/libnotify \
 		libkeybinder.so:x11/keybinder \
