@@ -14,7 +14,9 @@ COMMENT=	Widgets library for the Xfce desktop environment
 LICENSE=	GPLv2
 
 LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
-		libfreetype.so:print/freetype2
+		libfreetype.so:print/freetype2 \
+		libepoxy.so:graphics/libepoxy \
+		libgtop-2.0.so:devel/libgtop
 
 USES=		compiler:c11 gettext-tools gmake gnome libtool pathfix \
 		pkgconfig tar:bzip2 xfce xorg
@@ -25,7 +27,9 @@ USE_XORG=	ice sm x11
 
 GNU_CONFIGURE=	yes
 INSTALLS_ICONS=	yes
-CONFIGURE_ARGS=	--with-vendor-info=${OPSYS} --without-html-dir
+CONFIGURE_ARGS=	--with-vendor-info=${OPSYS} --without-html-dir \
+		--enable-glibtop --enable-epoxy \
+		--disable-gudev
 INSTALL_TARGET=	install-strip
 
 PORTSCOUT=	limitw:1,even
