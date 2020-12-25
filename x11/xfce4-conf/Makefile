@@ -30,12 +30,11 @@ CONFIGURE_ARGS=	--without-html-dir \
 
 PORTSCOUT=	limitw:1,even
 
-OPTIONS_DEFINE=		GIR NLS PERL VAPI
+OPTIONS_DEFINE=		GIR NLS VAPI
 OPTIONS_DEFAULT=	GIR VAPI
 OPTIONS_SUB=		yes
 
 GIR_DESC=		Use Gobject Introspection
-PERL_DESC=		Perl scripting language bindings (deprecated)
 
 GIR_USE=		gnome=introspection:build
 GIR_CONFIGURE_ON=	--enable-introspection=yes
@@ -43,13 +42,6 @@ GIR_CONFIGURE_OFF=	--enable-introspection=no
 
 NLS_CONFIGURE_ENABLE=	nls
 NLS_USES=		gettext-runtime
-
-PERL_BUILD_DEPENDS=	p5-ExtUtils-Depends>=0.405:devel/p5-ExtUtils-Depends \
-			p5-ExtUtils-PkgConfig>=1.15:devel/p5-ExtUtils-PkgConfig \
-			p5-Glib>=1.321:devel/p5-Glib
-PERL_CONFIGURE_ENABLE=	perl-bindings
-PERL_LIB_DEPENDS=	libdbus-1.so:devel/dbus
-PERL_USE=		perl5=run
 
 VAPI_BUILD_DEPENDS=	vapigen:lang/vala
 VAPI_CONFIGURE_ENABLE=	vala
