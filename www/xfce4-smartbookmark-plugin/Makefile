@@ -3,7 +3,6 @@
 
 PORTNAME=	xfce4-smartbookmark-plugin
 PORTVERSION=	0.5.2
-PORTREVISION=	1
 CATEGORIES=	www xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
@@ -13,8 +12,6 @@ COMMENT=	Query search engines from the Xfce panel
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
-
-BROKEN=		Fails to compile with xfce4-panel 4.16
 
 USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
 		tar:bzip2 xfce

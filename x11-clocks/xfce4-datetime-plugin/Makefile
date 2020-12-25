@@ -3,7 +3,6 @@
 
 PORTNAME=	xfce4-datetime-plugin
 PORTVERSION=	0.8.1
-PORTREVISION=	1
 CATEGORIES=	x11-clocks xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
@@ -12,8 +11,6 @@ MAINTAINER=	xfce@FreeBSD.org
 COMMENT=	Datetime panel plugin for the Xfce desktop
 
 LICENSE=	GPLv2
-
-BROKEN=		Fails to compile with xfce4-panel 4.16
 
 USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
 		tar:bzip2 xfce
