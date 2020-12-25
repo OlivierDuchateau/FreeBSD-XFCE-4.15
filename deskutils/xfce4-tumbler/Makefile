@@ -33,13 +33,14 @@ CONFIGURE_ARGS=	--enable-xdg-cache \
 PORTSCOUT=	limitw:1,even
 
 OPTIONS_DEFINE=	NLS FONTS JPEG FFMPEG POPPLER \
-		GSTREAMER ODF COVER
-OPTIONS_DEFAULT=	FONTS JPEG POPPLER GSTREAMER ODF
+		GSTREAMER ODF COVER EPUB
+OPTIONS_DEFAULT=	FONTS EPUB JPEG POPPLER GSTREAMER ODF
 OPTIONS_SUB=	yes
 
 FONTS_DESC=	Fonts thumbnailer plugin
 COVER_DESC=	Open Movie Database plugin (check pkg-message)
 GSTREAMER_DESC=	GStreamer thumbnailer plugin
+EPUB_DESC=	EPUB thumbnailer plugin
 
 COVER_CONFIGURE_ENABLE=	cover-thumbnailer
 COVER_LIB_DEPENDS=	libcurl.so:ftp/curl
@@ -65,5 +66,8 @@ ODF_USE=		gnome=libgsf
 
 POPPLER_CONFIGURE_ENABLE=	poppler-thumbnailer
 POPPLER_LIB_DEPENDS=	libpoppler-glib.so:graphics/poppler-glib
+
+EPUB_CONFIGURE_ENABLE=	gepub-thumbnailer
+EPUB_LIB_DEPENDS=	libgepub-0.6.so:textproc/libgepub
 
 .include <bsd.port.mk>
