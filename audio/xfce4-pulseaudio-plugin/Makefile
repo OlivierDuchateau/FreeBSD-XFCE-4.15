@@ -14,7 +14,8 @@ LICENSE=	GPLv2
 
 LIB_DEPENDS=	libpulse-mainloop-glib.so:audio/pulseaudio \
 		libdbus-1.so:devel/dbus \
-		libdbus-glib-1.so:devel/dbus-glib
+		libdbus-glib-1.so:devel/dbus-glib \
+		libnotify.so:devel/libnotify
 RUN_DEPENDS=	pavucontrol>=2.0:audio/pavucontrol
 
 USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
