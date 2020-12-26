@@ -3,6 +3,7 @@
 
 PORTNAME=	xfce4-pulseaudio-plugin
 PORTVERSION=	0.4.3
+PORTREVISION=	1
 CATEGORIES=	audio xfce
 MASTER_SITES=	XFCE/panel-plugins
 DIST_SUBDIR=	xfce4
