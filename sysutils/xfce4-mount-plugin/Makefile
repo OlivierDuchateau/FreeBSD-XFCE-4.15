@@ -1,8 +1,8 @@
 # Created by: Olivier Duchateau <duchateau.olivier@gmail.com>
-# $FreeBSD: head/sysutils/xfce4-mount-plugin/Makefile 558814 2020-12-21 12:22:32Z madpilot $
+# $FreeBSD: head/sysutils/xfce4-mount-plugin/Makefile 559514 2020-12-28 18:02:00Z madpilot $
 
 PORTNAME=	xfce4-mount-plugin
-PORTVERSION=	1.1.4
+PORTVERSION=	1.1.5
 PORTREVISION=	1
 CATEGORIES=	sysutils xfce
 MASTER_SITES=	XFCE/panel-plugins
