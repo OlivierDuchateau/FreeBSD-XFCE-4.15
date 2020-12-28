@@ -1,8 +1,8 @@
 # Created by: Matt Lancereau <matt@rimasec.net>
-# $FreeBSD: head/sysutils/xfce4-fsguard-plugin/Makefile 513570 2019-10-02 11:26:53Z pkubaj $
+# $FreeBSD: head/sysutils/xfce4-fsguard-plugin/Makefile 559488 2020-12-28 15:21:03Z madpilot $
 
 PORTNAME=	xfce4-fsguard-plugin
-PORTVERSION=	1.1.1
+PORTVERSION=	1.1.2
 PORTREVISION=	1
 CATEGORIES=	sysutils xfce
 MASTER_SITES=	XFCE/panel-plugins

@@ -41,8 +41,6 @@ None
 ### These have updates sitting in their repos and the next release will fix them. They will be marked BROKEN for the time being, but updates are expected soon.
 
 - deskutils/xfce4-notes-plugin
-- sysutils/xfce4-cpugraph-plugin
-- x11/xfce4-verve-plugin
 - x11-clocks/xfce4-stopwatch-plugin
 
 ### These are not maintained by xfce@, so while maintainers will be informed I will only mark them as broken at time of update.

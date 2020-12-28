@@ -1,8 +1,8 @@
 # Created by: Matt Lancereau <matt@rimasec.net>
-# $FreeBSD: head/sysutils/xfce4-cpugraph-plugin/Makefile 513616 2019-10-02 19:43:22Z pkubaj $
+# $FreeBSD: head/sysutils/xfce4-cpugraph-plugin/Makefile 559487 2020-12-28 15:20:20Z madpilot $
 
 PORTNAME=	xfce4-cpugraph-plugin
-PORTVERSION=	1.1.0
+PORTVERSION=	1.2.0
 PORTREVISION=	1
 CATEGORIES=	sysutils xfce
 MASTER_SITES=	XFCE/panel-plugins
@@ -12,8 +12,6 @@ MAINTAINER=	xfce@FreeBSD.org
 COMMENT=	Graphical representation of the CPU load
 
 LICENSE=	GPLv2
-
-BROKEN=		Fails to compile with xfce4-panel 4.16
 
 USES=		compiler:c11 gettext-tools gmake gnome libtool pkgconfig \
 		tar:bzip2 xfce
