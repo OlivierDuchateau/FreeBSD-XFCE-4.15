@@ -61,7 +61,7 @@ XFBURN_RUN_DEPENDS=		xfburn>=0:sysutils/xfburn
 XFMPC_RUN_DEPENDS=		xfmpc>=0:audio/xfmpc
 
 OPTIONS_GROUP_PANELPLUGINS=	BATTERY CALCULATOR CLIPMAN CPUGRAPH DATETIME \
-				DISKPERF EMBED FSGUARD GENERICSLIDER GENMON \
+				DISKPERF FSGUARD GENERICSLIDER GENMON \
 				MAILWATCH MOUNT MPC NETLOAD NOTES PULSEAUDIO \
 				SMARTBOOKMARK SYSTEMLOAD TIMER \
 				TIMEOUT VERVE WAVELAN WEATHER WHISKERMENU \
@@ -72,7 +72,6 @@ CLIPMAN_DESC=			Clipboard manager for the Xfce panel
 CPUGRAPH_DESC=			Graphical representation of the CPU load
 DATETIME_DESC=			Datetime panel plugin for the Xfce desktop
 DISKPERF_DESC=			Graphical representation of the disk IO
-EMBED_DESC=			Embed arbitrary windows into the Xfce panel
 FSGUARD_DESC=			Displays free space of mountpoint
 GENERICSLIDER_DESC=		Slider to adjust / monitor any numeric variable
 GENMON_DESC=			Generic Monitor Xfce4 panel plugin
@@ -99,7 +98,6 @@ CLIPMAN_RUN_DEPENDS=		xfce4-clipman-plugin>=0:x11/xfce4-clipman-plugin
 CPUGRAPH_RUN_DEPENDS=		xfce4-cpugraph-plugin>=0:sysutils/xfce4-cpugraph-plugin
 DATETIME_RUN_DEPENDS=		xfce4-datetime-plugin>=0:x11-clocks/xfce4-datetime-plugin
 DISKPERF_RUN_DEPENDS=		xfce4-diskperf-plugin>=0:sysutils/xfce4-diskperf-plugin
-EMBED_RUN_DEPENDS=		xfce4-embed-plugin>=0:x11/xfce4-embed-plugin
 FSGUARD_RUN_DEPENDS=		xfce4-fsguard-plugin>=0:sysutils/xfce4-fsguard-plugin
 GENERICSLIDER_RUN_DEPENDS=	xfce4-generic-slider>=0:deskutils/xfce4-generic-slider
 GENMON_RUN_DEPENDS=		xfce4-genmon-plugin>=0:sysutils/xfce4-genmon-plugin
@@ -129,15 +127,13 @@ ARCHIVE_RUN_DEPENDS=		thunar-archive-plugin>=0:archivers/thunar-archive-plugin
 MEDIATAGS_RUN_DEPENDS=		thunar-media-tags-plugin>=0:audio/thunar-media-tags-plugin
 VCS_RUN_DEPENDS=		thunar-vcs-plugin>=0:devel/thunar-vcs-plugin
 
-OPTIONS_GROUP_UNOFFICIAL=	BSDCPUFREQ EQUAKE MENULIBRE THEMES
+OPTIONS_GROUP_UNOFFICIAL=	BSDCPUFREQ MENULIBRE THEMES
 BSDCPUFREQ_DESC=		Display the CPU clock frequency in Xfce panel
-EQUAKE_DESC=			Earthquake monitor plugin for the Xfce panel
 MENULIBRE_DESC=			Advanced compliant menu editor
 THEMES_DESC=			Additional themes for xfwm4
 VOLUMED_DESC=			Volume management daemon for the Xfce desktop
 
 BSDCPUFREQ_RUN_DEPENDS=		xfce4-bsdcpufreq-plugin>=0:sysutils/xfce4-bsdcpufreq-plugin
-EQUAKE_RUN_DEPENDS=		xfce4-equake-plugin>=0:science/xfce4-equake-plugin
 MENULIBRE_RUN_DEPENDS=		py${PYTHON3_DEFAULT:S/.//}-menulibre>=0:x11/menulibre
 THEMES_RUN_DEPENDS=		xfce4-wm-themes>=0:misc/xfce4-wm-themes
 
