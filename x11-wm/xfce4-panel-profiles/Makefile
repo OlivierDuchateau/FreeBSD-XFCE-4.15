@@ -1,7 +1,7 @@
-# $FreeBSD: head/x11-wm/xfce4-panel-profiles/Makefile 523102 2020-01-15 11:33:17Z madpilot $
+# $FreeBSD: head/x11-wm/xfce4-panel-profiles/Makefile 559557 2020-12-29 10:22:14Z madpilot $
 
 PORTNAME=	xfce4-panel-profiles
-PORTVERSION=	1.0.10
+PORTVERSION=	1.0.12
 CATEGORIES=	x11-wm xfce
 MASTER_SITES=	XFCE/apps
 DIST_SUBDIR=	xfce4
