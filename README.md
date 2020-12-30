@@ -62,5 +62,4 @@ None
 ### These are not maintained by xfce@, so while maintainers will be informed I will only mark them as broken at time of update.
 
 - deskutils/xfce4-generic-slider
-- deskutils/xfce4-volumed
-- sysutils/xfce4-bsdcpufreq-plugin
+- deskutils/xfce4-volumed (will also add deprecation timeout)
