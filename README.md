@@ -20,7 +20,7 @@ There is no implicit or explicit warranty about the working state of the ports p
 
 ### pkg being confused in upgrading libexo
 
-At present "pkg upgrade" gets confused about libexo, first installs `libexo-4.16.0` and later removes `libexo-0.12.11`, causing vital files (like libexo.so) to be absent.
+At present "pkg upgrade" gets confused about libexo, first installs `libexo-4.16.0` and later removes `libexo-0.12.11`, causing vital files (like libexo.so) to be removed.
 
 It looks like this is triggered by this conflict:
 
@@ -28,7 +28,7 @@ It looks like this is triggered by this conflict:
  xfce4-settings-4.16.0 [repo] conflicts with libexo-0.12.11 [installed] on /usr/local/etc/xdg/xfce4/helpers.rc
 ```
 
-At present solution is to run `pkg upgrade -f libexo`, whicih reinstalls the missing files.
+At present solution is to run `pkg upgrade -f libexo`, which reinstalls the missing files.
 
 I'm investigating a better solution.
 
