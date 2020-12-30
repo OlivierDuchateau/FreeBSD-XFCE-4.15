@@ -16,6 +16,22 @@ There is no implicit or explicit warranty about the working state of the ports p
 
 * GTK2 support dropped. All components not ported to GTK3 will be deprecated, marked broken and removed from the ports tree, since they will not be able to compile and work anymore.
 
+## Known issues
+
+### pkg being confused in upgrading libexo
+
+At present "pkg upgrade" gets confused about libexo, first installs `libexo-4.16.0` and later removes `libexo-0.12.11`, causing vital files (like libexo.so) to be absent.
+
+It looks like this is triggered by this conflict:
+
+```
+ xfce4-settings-4.16.0 [repo] conflicts with libexo-0.12.11 [installed] on /usr/local/etc/xdg/xfce4/helpers.rc
+```
+
+At present solution is to run `pkg upgrade -f libexo`, whicih reinstalls the missing files.
+
+I'm investigating a better solution.
+
 ## Bugs reported upstream
 
 None
